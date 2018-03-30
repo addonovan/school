@@ -1,0 +1,3 @@
+[submodule "cse3320/msh"]
+	path = cse3320/msh
+	url = git@github.com:addonovan/msh.git
