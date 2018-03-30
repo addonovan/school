@@ -1,0 +1,8 @@
+Warning: continuing with only 6 vertices
+Sum of weights of spanning edges 29
+Outputting tree with leader 2
+lubbock waco 3
+source waco 4
+kemah dfw 5
+lubbock sink 7
+kemah sink 10

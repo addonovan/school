@@ -1,0 +1,9 @@
+8 8
+source dfw 15
+source waco 4
+dfw lubbock 12
+lubbock waco 3
+lubbock sink 7
+waco kemah 10
+kemah dfw 5
+kemah sink 10
