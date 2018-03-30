@@ -12,5 +12,5 @@ Professor: [Trevor Bakker](http://crystal.uta.edu/~bakker/)
 
 
 Contents:
-- [msh](msh) (short for *m*av *sh*ell) a simple shell program.
+- msh (short for *m*av *sh*ell) a simple shell program.
 
