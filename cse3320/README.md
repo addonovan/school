@@ -12,5 +12,7 @@ Professor: [Trevor Bakker](http://crystal.uta.edu/~bakker/)
 
 
 Contents:
-- msh (short for *m*av *sh*ell) a simple shell program.
+- msh - a simple shell program.
+- mandelbrot - two programs with different approaches to generating mandelbrot
+  fractals with concurrency.
 

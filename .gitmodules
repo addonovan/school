@@ -1,3 +1,6 @@
 [submodule "cse3320/msh"]
 	path = cse3320/msh
 	url = git@github.com:addonovan/msh.git
+[submodule "cse3320/mandelbrot"]
+	path = cse3320/mandelbrot
+	url = git@github.com:addonovan/mandelbrot.git
