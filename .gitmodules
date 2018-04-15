@@ -4,3 +4,6 @@
 [submodule "cse3320/mandelbrot"]
 	path = cse3320/mandelbrot
 	url = git@github.com:addonovan/mandelbrot.git
+[submodule "cse3320/fat32"]
+	path = cse3320/fat32
+	url = git@github.com:addonovan/fat32.git

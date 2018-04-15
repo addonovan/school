@@ -15,4 +15,5 @@ Contents:
 - msh - a simple shell program.
 - mandelbrot - two programs with different approaches to generating mandelbrot
   fractals with concurrency.
+- fat32 - A fat32 image reader.
 
