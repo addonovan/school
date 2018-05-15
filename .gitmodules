@@ -7,3 +7,6 @@
 [submodule "cse3320/fat32"]
 	path = cse3320/fat32
 	url = git@github.com:addonovan/fat32.git
+[submodule "cse3310/ueberkasino"]
+	path = cse3310/ueberkasino
+	url = git@github.com:addonovan/ueberkasino.git
