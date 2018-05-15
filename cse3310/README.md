@@ -10,7 +10,8 @@ Professor: [Jimmie Bud Davis](https://mentis.uta.edu/explore/profile/jimmie%20-d
 
 -- [UTA Course Catalog](http://catalog.uta.edu/coursedescriptions/cse/)
 
-Contents:
-- ueberkasino - A networked blackjack game which uses OpenSplice for networking
-  and FLTK (gag) for the UI.
+### ueberkasino
 
+A networked blackjack game which uses OpenSplice for networking
+and FLTK (gag) for the UI. This was a group project, you may check
+the contributors by following the link.
