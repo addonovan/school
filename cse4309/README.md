@@ -14,6 +14,9 @@ Professor: [Vassilis Athitsos](http://vlm1.uta.edu/~athitsos/)
 
 Contents:  
 - data - The datasets used for training across all of the assignments
-- hw1 - An implementation of a Naive Bayes Classifier (n.b. not fully perfect)
-- hw2 - A linear classifier trained with Iterative Reweighted Least Squares 
-
+- hw1 - Naive Bayes Classifier (n.b. not 100% correct)
+- hw2 - Iterative Reweighted Least Squares linear classifier
+- hw3 - Neural networks and backpropagation
+- hw4 - Decision Trees
+- hw5 - K-means clustering 
+- hw6 - Reinforcement learning with both the Value Iteration and Q-Learning algorithms
