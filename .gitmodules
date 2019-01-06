@@ -10,3 +10,6 @@
 [submodule "cse3310/ueberkasino"]
 	path = cse3310/ueberkasino
 	url = git@github.com:addonovan/ueberkasino.git
+[submodule "cse3330/cse3330_socialmedia"]
+	path = cse3330/cse3330_socialmedia
+	url = git@github.com:addonovan/cse3330_socialmedia.git
