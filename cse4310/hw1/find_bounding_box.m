@@ -1,13 +1,17 @@
 function [top, bottom, left, right] = find_bounding_box(file)
-    % read the provided image and the background image
-    background = read_sequence_frame(file, 0); 
+    % read the provided image and images +/- n frames 
     source = read_greyscale(file);
+    past = read_relative_frame(file, -10);
+    future = read_relative_frame(file, 10);
 
-    % find the difference between the background and our frame 
-    diff = abs(source - background);
+    % find the difference between the frames 
+    diff = min( ...
+        abs(source - past), ...
+        abs(future - source) ...
+    );
 
     % threshold the image
-    thresh = 0.1;
+    thresh = 0.05;
     threshed = diff > thresh;
 
     % find connected components 
@@ -48,11 +52,12 @@ function [top, bottom, left, right] = find_bounding_box(file)
         image = (image(:, :, 1) + image(:, :, 2) + image(:, :, 3)) / 3;
     end
 
-    function image = read_sequence_frame(file, frame)
-        [seq, ~] = parse_frame_name(file);
-        name = sprintf('%s%04d.tif', seq, frame);
+    function image = read_relative_frame(file, diff)
+        [seq, frame] = parse_frame_name(file);
+        name = sprintf('%s%04d.tif', seq, frame + diff);
         image = read_greyscale(name);
         clear name;
+        clear frame;
         clear seq;
     end
 end
