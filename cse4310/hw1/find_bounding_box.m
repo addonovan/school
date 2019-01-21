@@ -1,25 +1,20 @@
 function [top, bottom, left, right] = find_bounding_box(file)
+    % read the provided image and the background image
     background = read_sequence_frame(file, 0); 
     source = read_greyscale(file);
 
-    % find the difference between those frames and our frame
+    % find the difference between the background and our frame 
     diff = abs(source - background);
-    figure(1);
-    imshow(diff);
 
     % threshold the image
     thresh = 0.1;
     threshed = diff > thresh;
-    figure(2);
-    imshow(threshed, [0, 1.0]);
 
     % find connected components 
     [labels, number] = bwlabel(threshed, 4);
     colored = label2rgb(labels, @spring, 'c', 'shuffle');
-    figure(2);
-    imshow(colored);
    
-    % find the largest connected component, then assume its the person 
+    % find the largest connected component, assuming it's the person 
     sizes = zeros(1, number);
     for i = 1:number
         component_image = (labels == i);
@@ -27,15 +22,16 @@ function [top, bottom, left, right] = find_bounding_box(file)
     end
     [area, id] = max(counters);
     person = (labels == id);
-    figure(3);
-    imshow(person);
 
-    % find the bounding box for the person
+    % find the top and bottom of the person 
+    % (the first and last rows with a nonzero sum) 
     nonempty_rows = find(sum(person'));
     [~, length] = size(nonempty_rows);
     top = nonempty_rows(1);
     bottom = nonempty_rows(length);
 
+    % find th left and right of the person
+    % (the first and last columns with a nonzero sum)
     nonempty_cols = find(sum(person));
     [~, length] = size(nonempty_cols);
     left = nonempty_cols(1);
@@ -44,7 +40,7 @@ function [top, bottom, left, right] = find_bounding_box(file)
     % draw the bounding box
     original = imread(file);
     original = draw_rectangle(original, [255, 255, 0], top, bottom, left, right);
-    figure(4);
+    figure(1);
     imshow(original);
 
     function image = read_greyscale(file)
@@ -58,12 +54,6 @@ function [top, bottom, left, right] = find_bounding_box(file)
         image = read_greyscale(name);
         clear name;
         clear seq;
-    end
-
-    function image = read_frame_offset(file, offset)
-        [~, frame] = parse_frame_name(file);
-        image = read_sequence_frame(file, frame + offset);
-        clear frame;
     end
 end
 
