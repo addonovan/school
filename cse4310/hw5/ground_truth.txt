@@ -1,0 +1,143 @@
+0--Parade/0_Parade_marchingband_1_641.jpg
+1
+349 179 171 221 0 0 0 0 0 0 
+0--Parade/0_Parade_marchingband_1_732.jpg
+1
+415 112 148 198 0 0 0 0 0 0 
+0--Parade/0_Parade_marchingband_1_925.jpg
+1
+273 327 276 372 0 0 0 0 0 0 
+0--Parade/0_Parade_Parade_0_883.jpg
+1
+532 168 219 287 0 0 0 0 0 0 
+4--Dancing/4_Dancing_Dancing_4_954.jpg
+1
+361 202 270 354 0 0 0 0 0 0 
+5--Car_Accident/5_Car_Accident_Car_Crash_5_315.jpg
+1
+644 78 112 150 1 0 0 0 0 0 
+6--Funeral/6_Funeral_Funeral_6_417.jpg
+1
+360 76 86 128 0 0 0 0 0 0 
+6--Funeral/6_Funeral_Funeral_6_525.jpg
+2
+192 162 96 141 0 0 0 0 0 0 
+712 87 99 162 0 0 0 0 0 0 
+9--Press_Conference/9_Press_Conference_Press_Conference_9_149.jpg
+1
+427 291 276 363 0 0 0 0 0 0 
+9--Press_Conference/9_Press_Conference_Press_Conference_9_821.jpg
+4
+176 304 158 180 0 0 1 0 0 0 
+412 136 164 204 0 0 1 0 0 0 
+498 414 168 192 0 0 0 0 0 0 
+692 166 178 206 0 0 0 0 0 0 
+12--Group/12_Group_Group_12_Group_Group_12_793.jpg
+3
+70 272 106 116 1 0 0 0 0 0 
+450 252 92 120 1 0 0 0 0 0 
+732 216 96 116 1 0 0 0 0 0 
+12--Group/12_Group_Team_Organized_Group_12_Group_Team_Organized_Group_12_181.jpg
+2
+346 162 112 188 0 0 0 0 0 0 
+472 262 120 148 0 0 0 0 0 0 
+12--Group/12_Group_Team_Organized_Group_12_Group_Team_Organized_Group_12_398.jpg
+2
+374 60 118 164 0 0 0 0 0 0 
+638 180 114 170 0 0 0 0 0 0 
+13--Interview/13_Interview_Interview_2_People_Visible_13_170.jpg
+1
+444 106 170 230 0 0 0 0 0 0 
+13--Interview/13_Interview_Interview_On_Location_13_260.jpg
+3
+138 228 134 212 0 0 0 0 0 0 
+506 250 122 162 0 0 0 0 0 0 
+828 122 152 220 0 0 0 0 0 0 
+13--Interview/13_Interview_Interview_On_Location_13_710.jpg
+1
+388 104 216 284 0 0 0 0 0 0 
+13--Interview/13_Interview_Interview_Sequences_13_339.jpg
+2
+654 46 116 172 0 0 0 0 0 0 
+280 54 112 154 0 0 0 0 0 0 
+13--Interview/13_Interview_Interview_Sequences_13_401.jpg
+1
+430 80 192 282 0 0 0 0 0 0 
+15--Stock_Market/15_Stock_Market_Stock_Market_15_490.jpg
+1
+432 120 126 178 0 0 0 0 0 0 
+16--Award_Ceremony/16_Award_Ceremony_Awards_Ceremony_16_15.jpg
+1
+392 114 232 355 0 0 0 0 0 0 
+16--Award_Ceremony/16_Award_Ceremony_Awards_Ceremony_16_43.jpg
+1
+482 166 126 184 1 0 0 0 0 0 
+19--Couple/19_Couple_Couple_19_49.jpg
+2
+238 212 108 158 0 0 0 0 0 0 
+602 232 116 172 0 0 0 0 0 0 
+19--Couple/19_Couple_Couple_19_671.jpg
+2
+368 307 123 144 0 0 0 0 0 0 
+601 187 123 150 0 0 0 0 0 0 
+20--Family_Group/20_Family_Group_Family_Group_20_43.jpg
+6
+190 202 118 162 0 0 0 0 0 0 
+256 34 116 178 0 0 0 0 0 0 
+428 136 124 172 0 0 0 0 0 0 
+668 84 100 128 0 0 0 0 0 0 
+782 196 126 144 0 0 0 0 0 0 
+562 328 102 140 0 0 0 0 0 0 
+20--Family_Group/20_Family_Group_Family_Group_20_1009.jpg
+6
+176 104 168 238 0 0 0 0 0 0 
+464 144 170 244 0 0 0 0 0 0 
+698 138 160 224 0 0 0 0 0 0 
+248 542 164 226 0 0 0 0 0 0 
+432 514 176 222 0 0 0 0 0 0 
+668 444 172 210 0 0 0 0 0 0 
+21--Festival/21_Festival_Festival_21_697.jpg
+1
+547 161 260 346 0 0 0 0 0 0 
+21--Festival/21_Festival_Festival_21_808.jpg
+1
+419 337 220 292 0 0 0 0 0 0 
+23--Shoppers/23_Shoppers_Shoppers_23_324.jpg
+1
+508 26 186 240 0 0 0 0 0 0 
+23--Shoppers/23_Shoppers_Shoppers_23_718.jpg
+1
+397 131 245 331 0 0 0 0 0 0 
+29--Students_Schoolkids/29_Students_Schoolkids_Students_Schoolkids_29_942.jpg
+2
+260 96 234 272 0 0 0 0 0 0 
+590 270 196 238 0 0 0 0 0 0 
+30--Surgeons/30_Surgeons_Surgeons_30_379.jpg
+1
+425 210 220 376 0 0 0 0 0 0 
+32--Worker_Laborer/32_Worker_Laborer_Worker_Laborer_32_938.jpg
+1
+502 232 120 172 0 0 0 0 0 0 
+32--Worker_Laborer/32_Worker_Laborer_Worker_Laborer_32_1024.jpg
+1
+314 180 194 270 0 0 0 0 0 0 
+33--Running/33_Running_Running_33_91.jpg
+1
+522 188 99 128 0 0 0 0 0 0 
+33--Running/33_Running_Running_33_408.jpg
+1
+452 150 123 156 0 0 0 0 0 0 
+35--Basketball/35_Basketball_basketballgame_ball_35_187.jpg
+1
+412 106 228 322 0 0 0 0 0 0 
+35--Basketball/35_Basketball_basketballgame_ball_35_356.jpg
+1
+388 75 291 360 0 0 0 0 0 0 
+35--Basketball/35_Basketball_playingbasketball_35_354.jpg
+1
+462 340 105 156 0 0 0 0 0 0 
+35--Basketball/35_Basketball_playingbasketball_35_368.jpg
+3
+486 190 64 80 0 0 0 0 0 0 
+344 334 56 80 0 0 0 0 0 0 
+686 280 66 86 0 0 0 0 0 0 
