@@ -1,0 +1,7 @@
+Using the experimentation approach from the assignment guidelines, I
+implemented a function `d_statistics()` which computes the best accuracy
+and prints out the d-values which yield it.
+
+Best accuracy: 1.00
+Best d values: 180
+
