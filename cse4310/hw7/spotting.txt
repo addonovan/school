@@ -1,0 +1,12 @@
+I "addressed" the subgesture problem by completely ignoring it! Task 5 was an
+awful lot of work that I just didn't have time for the past two weeks, so it
+just returns an arbitrary start and end frame (where start < end < frame_count 
+even) and an arbitrary class id.
+
+I mean, technically it's a good solution to the subgesture problem because it
+doesn't actually even *have* the subgesture problem anymore!
+
+Oh well! 
+Ende gut, alles gut!  
+Haben Sie eine gute Sommerpause, Reza!
+
