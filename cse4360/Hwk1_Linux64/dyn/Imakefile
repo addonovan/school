@@ -1,0 +1,13 @@
+LOCAL_LIBRARIES =  -Llib -lDyn $(XAWLIB) $(XMULIB) $(XTOOLLIB) $(XLIB) $(XEXTLIB) -lm
+
+CC = gcc -fPIC
+
+PROG =  Dynamics
+
+SRCS = PD_control.c 
+
+OBJS = $(SRCS:.c=.o)
+
+INCL = 
+
+ComplexProgramTarget($(PROG))

@@ -4,3 +4,5 @@
 *.vscode
 
 *.pyc
+cse4360/**/*.bak
+cse4360/**/Makefile
