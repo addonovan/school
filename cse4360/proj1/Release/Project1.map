@@ -1,0 +1,2253 @@
+Archive member included to satisfy reference by file (symbol)
+
+/usr/local/EV3-API/API/libev3api.a(ev3_button.o)
+                              ./src/Project1.o (ButtonIsDown)
+/usr/local/EV3-API/API/libev3api.a(ev3_output.o)
+                              ./src/navigator.o (MotorRotationCount)
+/usr/local/EV3-API/API/libev3api.a(ev3.o)
+                              ./src/Project1.o (FreeEV3)
+/usr/local/EV3-API/API/libev3api.a(ev3_lcd.o)
+                              ./src/guidance.o (LcdPrintf)
+/usr/local/EV3-API/API/libev3api.a(ev3_timer.o)
+                              /usr/local/EV3-API/API/libev3api.a(ev3_lcd.o) (SetTimerCallback)
+/usr/local/EV3-API/API/libev3api.a(ev3sensor.o)
+                              /usr/local/EV3-API/API/libev3api.a(ev3.o) (initSensors)
+/usr/local/EV3-API/API/libev3api.a(ev3_command.o)
+                              ./src/Project1.o (Wait)
+/usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(new_op.o)
+                              ./src/guidance.o (operator new(unsigned int))
+/usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_personality.o)
+                              ./src/Project1.o (__gxx_personality_v0)
+/usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(new_handler.o)
+                              /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(new_op.o) (std::get_new_handler())
+/usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(del_op.o)
+                              ./src/Project1.o (operator delete(void*))
+/usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(si_class_type_info.o)
+                              /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(new_handler.o) (vtable for __cxxabiv1::__si_class_type_info)
+/usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_exception.o)
+                              /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(new_handler.o) (std::exception::~exception())
+/usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(bad_alloc.o)
+                              /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(new_op.o) (vtable for std::bad_alloc)
+/usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_throw.o)
+                              /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(new_op.o) (__cxa_throw)
+/usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_terminate.o)
+                              /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_throw.o) (__cxxabiv1::__terminate(void (*)()))
+/usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_globals.o)
+                              /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_throw.o) (__cxa_get_globals)
+/usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_call.o)
+                              /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_personality.o) (__cxa_call_terminate)
+/usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_arm.o)
+                              ./src/Project1.o (__cxa_end_cleanup)
+/usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_term_handler.o)
+                              /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_terminate.o) (__cxxabiv1::__terminate_handler)
+/usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_unex_handler.o)
+                              /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_terminate.o) (__cxxabiv1::__unexpected_handler)
+/usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(pure.o)
+                              /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_exception.o) (__cxa_pure_virtual)
+/usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(class_type_info.o)
+                              /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(si_class_type_info.o) (__cxxabiv1::__class_type_info::__do_upcast(__cxxabiv1::__class_type_info const*, void**) const)
+/usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_alloc.o)
+                              /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(new_op.o) (__cxa_allocate_exception)
+/usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_catch.o)
+                              /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_personality.o) (__cxa_begin_catch)
+/usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(tinfo.o)
+                              /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(class_type_info.o) (std::type_info::~type_info())
+/usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(vterminate.o)
+                              /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_term_handler.o) (__gnu_cxx::__verbose_terminate_handler())
+/usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(cp-demangle.o)
+                              /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(vterminate.o) (__cxa_demangle)
+/usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_type.o)
+                              /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(vterminate.o) (__cxa_current_exception_type)
+/usr/arm-linux-gnueabi/lib/libc_nonshared.a(elf-init.oS)
+                              /usr/lib/gcc-cross/arm-linux-gnueabi/5/../../../../arm-linux-gnueabi/lib/../lib/crt1.o (__libc_csu_init)
+
+As-needed library included to satisfy reference by file (symbol)
+
+libm.so.6                     ./src/util.o (acos@@GLIBC_2.4)
+libgcc_s.so.1                 ./src/guidance.o (__aeabi_d2iz@@GCC_3.5)
+libc.so.6                     /usr/local/EV3-API/API/libev3api.a(ev3_lcd.o) (__xpg_basename@@GLIBC_2.4)
+ld-linux.so.3                 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_globals.o) (__tls_get_addr@@GLIBC_2.4)
+
+Allocating common symbols
+Common symbol       size              file
+
+sensor_setup_NAME   0x10              /usr/local/EV3-API/API/libev3api.a(ev3sensor.o)
+OutputInstance      0x48              /usr/local/EV3-API/API/libev3api.a(ev3_output.o)
+hwBuffer            0x1e00            /usr/local/EV3-API/API/libev3api.a(ev3_lcd.o)
+LCDInstance         0xb98             /usr/local/EV3-API/API/libev3api.a(ev3_lcd.o)
+ButtonLedInstance   0x18              /usr/local/EV3-API/API/libev3api.a(ev3_button.o)
+ir_sensor_channel   0x10              /usr/local/EV3-API/API/libev3api.a(ev3sensor.o)
+HwVers              0x6               /usr/local/EV3-API/API/libev3api.a(ev3_button.o)
+
+Discarded input sections
+
+ .rodata.cst4   0x0000000000000000        0x4 /usr/lib/gcc-cross/arm-linux-gnueabi/5/../../../../arm-linux-gnueabi/lib/../lib/crt1.o
+ .ARM.extab     0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/../../../../arm-linux-gnueabi/lib/../lib/crt1.o
+ .data          0x0000000000000000        0x4 /usr/lib/gcc-cross/arm-linux-gnueabi/5/../../../../arm-linux-gnueabi/lib/../lib/crt1.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/../../../../arm-linux-gnueabi/lib/../lib/crt1.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/../../../../arm-linux-gnueabi/lib/../lib/crt1.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/../../../../arm-linux-gnueabi/lib/../lib/crti.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/../../../../arm-linux-gnueabi/lib/../lib/crti.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/../../../../arm-linux-gnueabi/lib/../lib/crti.o
+ .data          0x0000000000000000        0x4 /usr/lib/gcc-cross/arm-linux-gnueabi/5/crtbegin.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/crtbegin.o
+ .text          0x0000000000000000        0x0 ./src/Project1.o
+ .data          0x0000000000000000        0x0 ./src/Project1.o
+ .bss           0x0000000000000000        0x0 ./src/Project1.o
+ .debug_info    0x0000000000000000     0x1ad9 ./src/Project1.o
+ .debug_abbrev  0x0000000000000000      0x425 ./src/Project1.o
+ .debug_loc     0x0000000000000000      0x17a ./src/Project1.o
+ .debug_aranges
+                0x0000000000000000       0x20 ./src/Project1.o
+ .debug_ranges  0x0000000000000000       0x28 ./src/Project1.o
+ .debug_line    0x0000000000000000      0x2f9 ./src/Project1.o
+ .debug_str     0x0000000000000000     0x1dc9 ./src/Project1.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./src/Project1.o
+ .debug_frame   0x0000000000000000       0x3c ./src/Project1.o
+ .text          0x0000000000000000        0x0 ./src/control.o
+ .data          0x0000000000000000        0x0 ./src/control.o
+ .bss           0x0000000000000000        0x0 ./src/control.o
+ .ARM.extab.text._ZN15RobotControllerC2ER5Robot
+                0x0000000000000000        0x0 ./src/control.o
+ .ARM.extab.text._ZN15RobotController4moveEcc
+                0x0000000000000000        0x0 ./src/control.o
+ .ARM.extab.text._ZN15RobotController13command_stateERK10RobotState
+                0x0000000000000000        0x0 ./src/control.o
+ .text._ZN15RobotController8rotate90Ei
+                0x0000000000000000       0x44 ./src/control.o
+ .ARM.extab.text._ZN15RobotController8rotate90Ei
+                0x0000000000000000        0x0 ./src/control.o
+ .ARM.exidx.text._ZN15RobotController8rotate90Ei
+                0x0000000000000000        0x8 ./src/control.o
+ .ARM.extab.text._ZN15RobotController4stopEv
+                0x0000000000000000        0x0 ./src/control.o
+ .debug_info    0x0000000000000000     0x161f ./src/control.o
+ .debug_abbrev  0x0000000000000000      0x3f7 ./src/control.o
+ .debug_loc     0x0000000000000000      0x2d0 ./src/control.o
+ .debug_aranges
+                0x0000000000000000       0x40 ./src/control.o
+ .debug_ranges  0x0000000000000000       0x30 ./src/control.o
+ .debug_line    0x0000000000000000      0x397 ./src/control.o
+ .debug_str     0x0000000000000000      0xbfb ./src/control.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./src/control.o
+ .debug_frame   0x0000000000000000       0xd0 ./src/control.o
+ .group         0x0000000000000000       0x10 ./src/guidance.o
+ .text          0x0000000000000000        0x0 ./src/guidance.o
+ .data          0x0000000000000000        0x0 ./src/guidance.o
+ .bss           0x0000000000000000        0x0 ./src/guidance.o
+ .ARM.extab.text._ZN13RobotGuidanceC2ER5Robot
+                0x0000000000000000        0x0 ./src/guidance.o
+ .ARM.extab.text._ZN13RobotGuidance7at_goalEv
+                0x0000000000000000        0x0 ./src/guidance.o
+ .ARM.extab.text._ZN13RobotGuidance10next_stateEv
+                0x0000000000000000        0x0 ./src/guidance.o
+ .ARM.extab.text._ZN13RobotGuidance12add_waypointEdd
+                0x0000000000000000        0x0 ./src/guidance.o
+ .debug_info    0x0000000000000000     0x2e7e ./src/guidance.o
+ .debug_abbrev  0x0000000000000000      0x5de ./src/guidance.o
+ .debug_loc     0x0000000000000000      0x7c7 ./src/guidance.o
+ .debug_aranges
+                0x0000000000000000       0x40 ./src/guidance.o
+ .debug_ranges  0x0000000000000000      0x120 ./src/guidance.o
+ .debug_line    0x0000000000000000      0x4a2 ./src/guidance.o
+ .debug_str     0x0000000000000000     0x28ff ./src/guidance.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./src/guidance.o
+ .debug_frame   0x0000000000000000       0xd0 ./src/guidance.o
+ .text          0x0000000000000000        0x0 ./src/navigator.o
+ .data          0x0000000000000000        0x0 ./src/navigator.o
+ .bss           0x0000000000000000        0x0 ./src/navigator.o
+ .ARM.extab.text._ZN14RobotNavigatorC2ER5Robot
+                0x0000000000000000        0x0 ./src/navigator.o
+ .ARM.extab.text._ZN14RobotNavigator15estimate_updateERdS0_
+                0x0000000000000000        0x0 ./src/navigator.o
+ .ARM.extab.text._ZN14RobotNavigator14estimate_stateEv
+                0x0000000000000000        0x0 ./src/navigator.o
+ .debug_info    0x0000000000000000      0x4ce ./src/navigator.o
+ .debug_abbrev  0x0000000000000000      0x212 ./src/navigator.o
+ .debug_loc     0x0000000000000000      0x24e ./src/navigator.o
+ .debug_aranges
+                0x0000000000000000       0x30 ./src/navigator.o
+ .debug_ranges  0x0000000000000000       0x20 ./src/navigator.o
+ .debug_line    0x0000000000000000      0x120 ./src/navigator.o
+ .debug_str     0x0000000000000000      0x443 ./src/navigator.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./src/navigator.o
+ .debug_frame   0x0000000000000000       0x98 ./src/navigator.o
+ .text          0x0000000000000000        0x0 ./src/pid.o
+ .data          0x0000000000000000        0x0 ./src/pid.o
+ .bss           0x0000000000000000        0x0 ./src/pid.o
+ .ARM.extab.text._ZN13ControllerPidC2Eddd
+                0x0000000000000000        0x0 ./src/pid.o
+ .ARM.extab.text._ZN13ControllerPid5applyEi
+                0x0000000000000000        0x0 ./src/pid.o
+ .debug_info    0x0000000000000000      0x232 ./src/pid.o
+ .debug_abbrev  0x0000000000000000      0x140 ./src/pid.o
+ .debug_loc     0x0000000000000000       0xc4 ./src/pid.o
+ .debug_aranges
+                0x0000000000000000       0x28 ./src/pid.o
+ .debug_ranges  0x0000000000000000       0x18 ./src/pid.o
+ .debug_line    0x0000000000000000       0x97 ./src/pid.o
+ .debug_str     0x0000000000000000      0x285 ./src/pid.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./src/pid.o
+ .debug_frame   0x0000000000000000       0x50 ./src/pid.o
+ .text          0x0000000000000000        0x0 ./src/util.o
+ .data          0x0000000000000000        0x0 ./src/util.o
+ .bss           0x0000000000000000        0x0 ./src/util.o
+ .ARM.extab.text._Z12clear_screenv
+                0x0000000000000000        0x0 ./src/util.o
+ .ARM.extab.text._Z12lookup_powerd
+                0x0000000000000000        0x0 ./src/util.o
+ .ARM.extab.text._Z12lookup_speedc
+                0x0000000000000000        0x0 ./src/util.o
+ .ARM.extab.text._Z4normRdS_
+                0x0000000000000000        0x0 ./src/util.o
+ .ARM.extab.text._Z4distdddd
+                0x0000000000000000        0x0 ./src/util.o
+ .ARM.extab.text._Z11clamp_angled
+                0x0000000000000000        0x0 ./src/util.o
+ .ARM.extab.text._Z10angle_diffdd
+                0x0000000000000000        0x0 ./src/util.o
+ .text._Z11unit_vectordRdS_
+                0x0000000000000000       0x5c ./src/util.o
+ .ARM.extab.text._Z11unit_vectordRdS_
+                0x0000000000000000        0x0 ./src/util.o
+ .ARM.exidx.text._Z11unit_vectordRdS_
+                0x0000000000000000        0x8 ./src/util.o
+ .text._Z9rotate_todddd
+                0x0000000000000000       0xc0 ./src/util.o
+ .ARM.extab.text._Z9rotate_todddd
+                0x0000000000000000        0x0 ./src/util.o
+ .ARM.exidx.text._Z9rotate_todddd
+                0x0000000000000000        0x8 ./src/util.o
+ .debug_info    0x0000000000000000      0x88d ./src/util.o
+ .debug_abbrev  0x0000000000000000      0x266 ./src/util.o
+ .debug_loc     0x0000000000000000      0x601 ./src/util.o
+ .debug_aranges
+                0x0000000000000000       0x60 ./src/util.o
+ .debug_ranges  0x0000000000000000       0xb0 ./src/util.o
+ .debug_line    0x0000000000000000      0x1eb ./src/util.o
+ .debug_str     0x0000000000000000      0x455 ./src/util.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./src/util.o
+ .debug_frame   0x0000000000000000      0x1a8 ./src/util.o
+ .data          0x0000000000000000        0x0 /usr/local/EV3-API/API/libev3api.a(ev3_button.o)
+ .bss           0x0000000000000000        0x0 /usr/local/EV3-API/API/libev3api.a(ev3_button.o)
+ .ARM.extab     0x0000000000000000        0x0 /usr/local/EV3-API/API/libev3api.a(ev3_button.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/local/EV3-API/API/libev3api.a(ev3_button.o)
+ .data          0x0000000000000000        0x0 /usr/local/EV3-API/API/libev3api.a(ev3_output.o)
+ .bss           0x0000000000000000        0x0 /usr/local/EV3-API/API/libev3api.a(ev3_output.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/local/EV3-API/API/libev3api.a(ev3_output.o)
+ .data          0x0000000000000000        0x0 /usr/local/EV3-API/API/libev3api.a(ev3.o)
+ .bss           0x0000000000000000        0x0 /usr/local/EV3-API/API/libev3api.a(ev3.o)
+ .ARM.extab     0x0000000000000000        0x0 /usr/local/EV3-API/API/libev3api.a(ev3.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/local/EV3-API/API/libev3api.a(ev3.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/local/EV3-API/API/libev3api.a(ev3_lcd.o)
+ .data          0x0000000000000000        0x0 /usr/local/EV3-API/API/libev3api.a(ev3_timer.o)
+ .ARM.extab     0x0000000000000000        0x0 /usr/local/EV3-API/API/libev3api.a(ev3_timer.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/local/EV3-API/API/libev3api.a(ev3_timer.o)
+ .data          0x0000000000000000        0x0 /usr/local/EV3-API/API/libev3api.a(ev3sensor.o)
+ .ARM.extab     0x0000000000000000        0x0 /usr/local/EV3-API/API/libev3api.a(ev3sensor.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/local/EV3-API/API/libev3api.a(ev3sensor.o)
+ .data          0x0000000000000000        0x0 /usr/local/EV3-API/API/libev3api.a(ev3_command.o)
+ .bss           0x0000000000000000        0x0 /usr/local/EV3-API/API/libev3api.a(ev3_command.o)
+ .ARM.extab     0x0000000000000000        0x0 /usr/local/EV3-API/API/libev3api.a(ev3_command.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/local/EV3-API/API/libev3api.a(ev3_command.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(new_op.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(new_op.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(new_op.o)
+ .ARM.extab.text._Znwj
+                0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(new_op.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(new_op.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_personality.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_personality.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_personality.o)
+ .ARM.extab.text._ZL28read_encoded_value_with_basehjPKhPj
+                0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_personality.o)
+ .ARM.extab.text._ZL21base_of_encoded_valuehP15_Unwind_Context
+                0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_personality.o)
+ .ARM.extab.text._ZL17parse_lsda_headerP15_Unwind_ContextPKhP16lsda_header_info
+                0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_personality.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_personality.o)
+ .ARM.attributes
+                0x0000000000000000       0x2a /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_personality.o)
+ .group         0x0000000000000000       0x10 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(new_handler.o)
+ .group         0x0000000000000000       0x10 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(new_handler.o)
+ .group         0x0000000000000000       0x1c /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(new_handler.o)
+ .group         0x0000000000000000       0x1c /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(new_handler.o)
+ .group         0x0000000000000000       0x10 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(new_handler.o)
+ .group         0x0000000000000000       0x10 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(new_handler.o)
+ .group         0x0000000000000000        0x8 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(new_handler.o)
+ .group         0x0000000000000000        0x8 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(new_handler.o)
+ .group         0x0000000000000000        0x8 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(new_handler.o)
+ .group         0x0000000000000000        0x8 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(new_handler.o)
+ .group         0x0000000000000000        0x8 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(new_handler.o)
+ .group         0x0000000000000000        0x8 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(new_handler.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(new_handler.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(new_handler.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(new_handler.o)
+ .text._ZSt15set_new_handlerPFvvE
+                0x0000000000000000       0xa8 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(new_handler.o)
+ .ARM.extab.text._ZSt15set_new_handlerPFvvE
+                0x0000000000000000       0x28 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(new_handler.o)
+ .ARM.exidx.text._ZSt15set_new_handlerPFvvE
+                0x0000000000000000        0x8 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(new_handler.o)
+ .ARM.extab.text.startup._GLOBAL__sub_I_new_handler.cc
+                0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(new_handler.o)
+ .rodata._ZSt7nothrow
+                0x0000000000000000        0x1 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(new_handler.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(new_handler.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(del_op.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(del_op.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(del_op.o)
+ .ARM.extab.text._ZdlPv
+                0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(del_op.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(del_op.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(si_class_type_info.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(si_class_type_info.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(si_class_type_info.o)
+ .ARM.extab.text._ZN10__cxxabiv120__si_class_type_infoD2Ev
+                0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(si_class_type_info.o)
+ .ARM.extab.text._ZN10__cxxabiv120__si_class_type_infoD0Ev
+                0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(si_class_type_info.o)
+ .ARM.extab.text._ZNK10__cxxabiv120__si_class_type_info12__do_dyncastEiNS_17__class_type_info10__sub_kindEPKS1_PKvS4_S6_RNS1_16__dyncast_resultE
+                0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(si_class_type_info.o)
+ .ARM.extab.text._ZNK10__cxxabiv120__si_class_type_info20__do_find_public_srcEiPKvPKNS_17__class_type_infoES2_
+                0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(si_class_type_info.o)
+ .ARM.extab.text._ZNK10__cxxabiv120__si_class_type_info11__do_upcastEPKNS_17__class_type_infoEPKvRNS1_15__upcast_resultE
+                0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(si_class_type_info.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(si_class_type_info.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_exception.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_exception.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_exception.o)
+ .ARM.extab.text._ZNSt9exceptionD2Ev
+                0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_exception.o)
+ .ARM.extab.text._ZNSt13bad_exceptionD2Ev
+                0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_exception.o)
+ .text._ZNKSt9exception4whatEv
+                0x0000000000000000       0x10 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_exception.o)
+ .ARM.extab.text._ZNKSt9exception4whatEv
+                0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_exception.o)
+ .ARM.exidx.text._ZNKSt9exception4whatEv
+                0x0000000000000000        0x8 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_exception.o)
+ .ARM.extab.text._ZNKSt13bad_exception4whatEv
+                0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_exception.o)
+ .text._ZNSt9exceptionD0Ev
+                0x0000000000000000       0x1c /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_exception.o)
+ .ARM.extab.text._ZNSt9exceptionD0Ev
+                0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_exception.o)
+ .ARM.exidx.text._ZNSt9exceptionD0Ev
+                0x0000000000000000        0x8 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_exception.o)
+ .ARM.extab.text._ZNSt13bad_exceptionD0Ev
+                0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_exception.o)
+ .text._ZN10__cxxabiv115__forced_unwindD2Ev
+                0x0000000000000000        0x4 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_exception.o)
+ .ARM.extab.text._ZN10__cxxabiv115__forced_unwindD2Ev
+                0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_exception.o)
+ .ARM.exidx.text._ZN10__cxxabiv115__forced_unwindD2Ev
+                0x0000000000000000        0x8 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_exception.o)
+ .text._ZN10__cxxabiv115__forced_unwindD0Ev
+                0x0000000000000000       0x1c /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_exception.o)
+ .ARM.extab.text._ZN10__cxxabiv115__forced_unwindD0Ev
+                0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_exception.o)
+ .ARM.exidx.text._ZN10__cxxabiv115__forced_unwindD0Ev
+                0x0000000000000000        0x8 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_exception.o)
+ .text._ZN10__cxxabiv119__foreign_exceptionD2Ev
+                0x0000000000000000        0x4 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_exception.o)
+ .ARM.extab.text._ZN10__cxxabiv119__foreign_exceptionD2Ev
+                0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_exception.o)
+ .ARM.exidx.text._ZN10__cxxabiv119__foreign_exceptionD2Ev
+                0x0000000000000000        0x8 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_exception.o)
+ .text._ZN10__cxxabiv119__foreign_exceptionD0Ev
+                0x0000000000000000       0x1c /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_exception.o)
+ .ARM.extab.text._ZN10__cxxabiv119__foreign_exceptionD0Ev
+                0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_exception.o)
+ .ARM.exidx.text._ZN10__cxxabiv119__foreign_exceptionD0Ev
+                0x0000000000000000        0x8 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_exception.o)
+ .data.rel.ro._ZTVN10__cxxabiv115__forced_unwindE
+                0x0000000000000000       0x14 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_exception.o)
+ .data.rel.ro._ZTVN10__cxxabiv119__foreign_exceptionE
+                0x0000000000000000       0x14 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_exception.o)
+ .data.rel.ro._ZTVSt9exception
+                0x0000000000000000       0x14 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_exception.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_exception.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(bad_alloc.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(bad_alloc.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(bad_alloc.o)
+ .ARM.extab.text._ZNKSt9bad_alloc4whatEv
+                0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(bad_alloc.o)
+ .ARM.extab.text._ZNSt9bad_allocD2Ev
+                0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(bad_alloc.o)
+ .ARM.extab.text._ZNSt9bad_allocD0Ev
+                0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(bad_alloc.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(bad_alloc.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_throw.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_throw.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_throw.o)
+ .ARM.extab.text._ZL23__gxx_exception_cleanup19_Unwind_Reason_CodeP21_Unwind_Control_Block
+                0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_throw.o)
+ .ARM.extab.text.__cxa_throw
+                0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_throw.o)
+ .ARM.extab.text.__cxa_rethrow
+                0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_throw.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_throw.o)
+ .group         0x0000000000000000       0x10 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_terminate.o)
+ .group         0x0000000000000000       0x10 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_terminate.o)
+ .group         0x0000000000000000       0x1c /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_terminate.o)
+ .group         0x0000000000000000       0x1c /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_terminate.o)
+ .group         0x0000000000000000       0x10 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_terminate.o)
+ .group         0x0000000000000000        0x8 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_terminate.o)
+ .group         0x0000000000000000        0x8 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_terminate.o)
+ .group         0x0000000000000000        0x8 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_terminate.o)
+ .group         0x0000000000000000        0x8 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_terminate.o)
+ .group         0x0000000000000000        0x8 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_terminate.o)
+ .group         0x0000000000000000        0x8 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_terminate.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_terminate.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_terminate.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_terminate.o)
+ .text._ZNK9__gnu_cxx24__concurrence_lock_error4whatEv
+                0x0000000000000000       0x10 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_terminate.o)
+ .ARM.extab.text._ZNK9__gnu_cxx24__concurrence_lock_error4whatEv
+                0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_terminate.o)
+ .ARM.exidx.text._ZNK9__gnu_cxx24__concurrence_lock_error4whatEv
+                0x0000000000000000        0x8 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_terminate.o)
+ .text._ZNK9__gnu_cxx26__concurrence_unlock_error4whatEv
+                0x0000000000000000       0x10 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_terminate.o)
+ .ARM.extab.text._ZNK9__gnu_cxx26__concurrence_unlock_error4whatEv
+                0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_terminate.o)
+ .ARM.exidx.text._ZNK9__gnu_cxx26__concurrence_unlock_error4whatEv
+                0x0000000000000000        0x8 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_terminate.o)
+ .text._ZN9__gnu_cxx24__concurrence_lock_errorD2Ev
+                0x0000000000000000       0x34 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_terminate.o)
+ .ARM.extab.text._ZN9__gnu_cxx24__concurrence_lock_errorD2Ev
+                0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_terminate.o)
+ .ARM.exidx.text._ZN9__gnu_cxx24__concurrence_lock_errorD2Ev
+                0x0000000000000000        0x8 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_terminate.o)
+ .text._ZN9__gnu_cxx26__concurrence_unlock_errorD2Ev
+                0x0000000000000000       0x34 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_terminate.o)
+ .ARM.extab.text._ZN9__gnu_cxx26__concurrence_unlock_errorD2Ev
+                0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_terminate.o)
+ .ARM.exidx.text._ZN9__gnu_cxx26__concurrence_unlock_errorD2Ev
+                0x0000000000000000        0x8 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_terminate.o)
+ .text._ZN9__gnu_cxx24__concurrence_lock_errorD0Ev
+                0x0000000000000000       0x3c /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_terminate.o)
+ .ARM.extab.text._ZN9__gnu_cxx24__concurrence_lock_errorD0Ev
+                0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_terminate.o)
+ .ARM.exidx.text._ZN9__gnu_cxx24__concurrence_lock_errorD0Ev
+                0x0000000000000000        0x8 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_terminate.o)
+ .text._ZN9__gnu_cxx26__concurrence_unlock_errorD0Ev
+                0x0000000000000000       0x3c /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_terminate.o)
+ .ARM.extab.text._ZN9__gnu_cxx26__concurrence_unlock_errorD0Ev
+                0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_terminate.o)
+ .ARM.exidx.text._ZN9__gnu_cxx26__concurrence_unlock_errorD0Ev
+                0x0000000000000000        0x8 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_terminate.o)
+ .text._ZN9__gnu_cxx30__throw_concurrence_lock_errorEv
+                0x0000000000000000       0x48 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_terminate.o)
+ .ARM.extab.text._ZN9__gnu_cxx30__throw_concurrence_lock_errorEv
+                0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_terminate.o)
+ .ARM.exidx.text._ZN9__gnu_cxx30__throw_concurrence_lock_errorEv
+                0x0000000000000000        0x8 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_terminate.o)
+ .text._ZSt13set_terminatePFvvE
+                0x0000000000000000       0xd8 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_terminate.o)
+ .ARM.extab.text._ZSt13set_terminatePFvvE
+                0x0000000000000000       0x2c /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_terminate.o)
+ .ARM.exidx.text._ZSt13set_terminatePFvvE
+                0x0000000000000000        0x8 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_terminate.o)
+ .ARM.extab.text._ZSt9terminatev
+                0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_terminate.o)
+ .ARM.extab.text._ZN10__cxxabiv112__unexpectedEPFvvE
+                0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_terminate.o)
+ .text._ZSt14set_unexpectedPFvvE
+                0x0000000000000000       0xd8 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_terminate.o)
+ .ARM.extab.text._ZSt14set_unexpectedPFvvE
+                0x0000000000000000       0x2c /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_terminate.o)
+ .ARM.exidx.text._ZSt14set_unexpectedPFvvE
+                0x0000000000000000        0x8 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_terminate.o)
+ .ARM.extab.text._ZSt10unexpectedv
+                0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_terminate.o)
+ .ARM.extab.text.startup._GLOBAL__sub_I_eh_terminate.cc
+                0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_terminate.o)
+ .rodata._ZTSN9__gnu_cxx24__concurrence_lock_errorE
+                0x0000000000000000       0x27 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_terminate.o)
+ .data.rel.ro._ZTIN9__gnu_cxx24__concurrence_lock_errorE
+                0x0000000000000000        0xc /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_terminate.o)
+ .rodata._ZTSN9__gnu_cxx26__concurrence_unlock_errorE
+                0x0000000000000000       0x29 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_terminate.o)
+ .data.rel.ro._ZTIN9__gnu_cxx26__concurrence_unlock_errorE
+                0x0000000000000000        0xc /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_terminate.o)
+ .data.rel.ro._ZTVN9__gnu_cxx24__concurrence_lock_errorE
+                0x0000000000000000       0x14 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_terminate.o)
+ .data.rel.ro._ZTVN9__gnu_cxx26__concurrence_unlock_errorE
+                0x0000000000000000       0x14 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_terminate.o)
+ .rodata.str1.4
+                0x0000000000000000       0x4a /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_terminate.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_terminate.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_globals.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_globals.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_globals.o)
+ .ARM.extab.text.__cxa_get_globals_fast
+                0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_globals.o)
+ .ARM.extab.text.__cxa_get_globals
+                0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_globals.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_globals.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_call.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_call.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_call.o)
+ .ARM.extab.text.__cxa_call_terminate
+                0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_call.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_call.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_arm.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_arm.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_arm.o)
+ .ARM.extab.text.__cxa_type_match
+                0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_arm.o)
+ .ARM.extab.text.__cxa_begin_cleanup
+                0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_arm.o)
+ .ARM.extab.text.__gnu_end_cleanup
+                0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_arm.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_arm.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_term_handler.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_term_handler.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_term_handler.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_term_handler.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_unex_handler.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_unex_handler.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_unex_handler.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_unex_handler.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(pure.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(pure.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(pure.o)
+ .text.__cxa_pure_virtual
+                0x0000000000000000       0x20 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(pure.o)
+ .ARM.extab.text.__cxa_pure_virtual
+                0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(pure.o)
+ .ARM.exidx.text.__cxa_pure_virtual
+                0x0000000000000000        0x8 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(pure.o)
+ .text.__cxa_deleted_virtual
+                0x0000000000000000       0x20 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(pure.o)
+ .ARM.extab.text.__cxa_deleted_virtual
+                0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(pure.o)
+ .ARM.exidx.text.__cxa_deleted_virtual
+                0x0000000000000000        0x8 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(pure.o)
+ .rodata.str1.4
+                0x0000000000000000       0x3b /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(pure.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(pure.o)
+ .ARM.attributes
+                0x0000000000000000       0x2a /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(pure.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(class_type_info.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(class_type_info.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(class_type_info.o)
+ .ARM.extab.text._ZNK10__cxxabiv117__class_type_info11__do_upcastEPKS0_PPv
+                0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(class_type_info.o)
+ .ARM.extab.text._ZNK10__cxxabiv117__class_type_info20__do_find_public_srcEiPKvPKS0_S2_
+                0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(class_type_info.o)
+ .ARM.extab.text._ZN10__cxxabiv117__class_type_infoD2Ev
+                0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(class_type_info.o)
+ .ARM.extab.text._ZN10__cxxabiv117__class_type_infoD0Ev
+                0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(class_type_info.o)
+ .ARM.extab.text._ZNK10__cxxabiv117__class_type_info11__do_upcastEPKS0_PKvRNS0_15__upcast_resultE
+                0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(class_type_info.o)
+ .ARM.extab.text._ZNK10__cxxabiv117__class_type_info12__do_dyncastEiNS0_10__sub_kindEPKS0_PKvS3_S5_RNS0_16__dyncast_resultE
+                0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(class_type_info.o)
+ .ARM.extab.text._ZNK10__cxxabiv117__class_type_info10__do_catchEPKSt9type_infoPPvj
+                0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(class_type_info.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(class_type_info.o)
+ .group         0x0000000000000000       0x10 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_alloc.o)
+ .group         0x0000000000000000       0x10 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_alloc.o)
+ .group         0x0000000000000000       0x1c /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_alloc.o)
+ .group         0x0000000000000000       0x1c /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_alloc.o)
+ .group         0x0000000000000000       0x10 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_alloc.o)
+ .group         0x0000000000000000        0x8 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_alloc.o)
+ .group         0x0000000000000000        0x8 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_alloc.o)
+ .group         0x0000000000000000        0x8 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_alloc.o)
+ .group         0x0000000000000000        0x8 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_alloc.o)
+ .group         0x0000000000000000        0x8 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_alloc.o)
+ .group         0x0000000000000000        0x8 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_alloc.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_alloc.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_alloc.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_alloc.o)
+ .text._ZNK9__gnu_cxx24__concurrence_lock_error4whatEv
+                0x0000000000000000       0x10 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_alloc.o)
+ .ARM.extab.text._ZNK9__gnu_cxx24__concurrence_lock_error4whatEv
+                0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_alloc.o)
+ .ARM.exidx.text._ZNK9__gnu_cxx24__concurrence_lock_error4whatEv
+                0x0000000000000000        0x8 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_alloc.o)
+ .text._ZNK9__gnu_cxx26__concurrence_unlock_error4whatEv
+                0x0000000000000000       0x10 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_alloc.o)
+ .ARM.extab.text._ZNK9__gnu_cxx26__concurrence_unlock_error4whatEv
+                0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_alloc.o)
+ .ARM.exidx.text._ZNK9__gnu_cxx26__concurrence_unlock_error4whatEv
+                0x0000000000000000        0x8 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_alloc.o)
+ .text._ZN9__gnu_cxx24__concurrence_lock_errorD2Ev
+                0x0000000000000000       0x34 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_alloc.o)
+ .ARM.extab.text._ZN9__gnu_cxx24__concurrence_lock_errorD2Ev
+                0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_alloc.o)
+ .ARM.exidx.text._ZN9__gnu_cxx24__concurrence_lock_errorD2Ev
+                0x0000000000000000        0x8 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_alloc.o)
+ .text._ZN9__gnu_cxx26__concurrence_unlock_errorD2Ev
+                0x0000000000000000       0x34 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_alloc.o)
+ .ARM.extab.text._ZN9__gnu_cxx26__concurrence_unlock_errorD2Ev
+                0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_alloc.o)
+ .ARM.exidx.text._ZN9__gnu_cxx26__concurrence_unlock_errorD2Ev
+                0x0000000000000000        0x8 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_alloc.o)
+ .text._ZN9__gnu_cxx24__concurrence_lock_errorD0Ev
+                0x0000000000000000       0x3c /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_alloc.o)
+ .ARM.extab.text._ZN9__gnu_cxx24__concurrence_lock_errorD0Ev
+                0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_alloc.o)
+ .ARM.exidx.text._ZN9__gnu_cxx24__concurrence_lock_errorD0Ev
+                0x0000000000000000        0x8 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_alloc.o)
+ .text._ZN9__gnu_cxx26__concurrence_unlock_errorD0Ev
+                0x0000000000000000       0x3c /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_alloc.o)
+ .ARM.extab.text._ZN9__gnu_cxx26__concurrence_unlock_errorD0Ev
+                0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_alloc.o)
+ .ARM.exidx.text._ZN9__gnu_cxx26__concurrence_unlock_errorD0Ev
+                0x0000000000000000        0x8 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_alloc.o)
+ .text._ZN9__gnu_cxx30__throw_concurrence_lock_errorEv
+                0x0000000000000000       0x48 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_alloc.o)
+ .ARM.extab.text._ZN9__gnu_cxx30__throw_concurrence_lock_errorEv
+                0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_alloc.o)
+ .ARM.exidx.text._ZN9__gnu_cxx30__throw_concurrence_lock_errorEv
+                0x0000000000000000        0x8 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_alloc.o)
+ .text.__cxa_allocate_dependent_exception
+                0x0000000000000000       0x50 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_alloc.o)
+ .ARM.extab.text.__cxa_allocate_dependent_exception
+                0x0000000000000000       0x1c /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_alloc.o)
+ .ARM.exidx.text.__cxa_allocate_dependent_exception
+                0x0000000000000000        0x8 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_alloc.o)
+ .text.__cxa_free_dependent_exception
+                0x0000000000000000       0x50 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_alloc.o)
+ .ARM.extab.text.__cxa_free_dependent_exception
+                0x0000000000000000       0x1c /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_alloc.o)
+ .ARM.exidx.text.__cxa_free_dependent_exception
+                0x0000000000000000        0x8 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_alloc.o)
+ .ARM.extab.text.startup._GLOBAL__sub_I_eh_alloc.cc
+                0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_alloc.o)
+ .rodata._ZTSN9__gnu_cxx24__concurrence_lock_errorE
+                0x0000000000000000       0x27 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_alloc.o)
+ .data.rel.ro._ZTIN9__gnu_cxx24__concurrence_lock_errorE
+                0x0000000000000000        0xc /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_alloc.o)
+ .rodata._ZTSN9__gnu_cxx26__concurrence_unlock_errorE
+                0x0000000000000000       0x29 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_alloc.o)
+ .data.rel.ro._ZTIN9__gnu_cxx26__concurrence_unlock_errorE
+                0x0000000000000000        0xc /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_alloc.o)
+ .data.rel.ro._ZTVN9__gnu_cxx24__concurrence_lock_errorE
+                0x0000000000000000       0x14 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_alloc.o)
+ .data.rel.ro._ZTVN9__gnu_cxx26__concurrence_unlock_errorE
+                0x0000000000000000       0x14 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_alloc.o)
+ .rodata.str1.4
+                0x0000000000000000       0x4a /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_alloc.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_alloc.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_catch.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_catch.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_catch.o)
+ .text.__cxa_get_exception_ptr
+                0x0000000000000000        0x8 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_catch.o)
+ .ARM.extab.text.__cxa_get_exception_ptr
+                0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_catch.o)
+ .ARM.exidx.text.__cxa_get_exception_ptr
+                0x0000000000000000        0x8 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_catch.o)
+ .ARM.extab.text.__cxa_end_catch
+                0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_catch.o)
+ .text._ZSt18uncaught_exceptionv
+                0x0000000000000000       0x18 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_catch.o)
+ .ARM.extab.text._ZSt18uncaught_exceptionv
+                0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_catch.o)
+ .ARM.exidx.text._ZSt18uncaught_exceptionv
+                0x0000000000000000        0x8 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_catch.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_catch.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(tinfo.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(tinfo.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(tinfo.o)
+ .ARM.extab.text._ZNSt9type_infoD2Ev
+                0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(tinfo.o)
+ .ARM.extab.text._ZNKSt9type_info15__is_function_pEv
+                0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(tinfo.o)
+ .text._ZNKSt9type_info11__do_upcastEPKN10__cxxabiv117__class_type_infoEPPv
+                0x0000000000000000        0x8 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(tinfo.o)
+ .ARM.extab.text._ZNKSt9type_info11__do_upcastEPKN10__cxxabiv117__class_type_infoEPPv
+                0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(tinfo.o)
+ .ARM.exidx.text._ZNKSt9type_info11__do_upcastEPKN10__cxxabiv117__class_type_infoEPPv
+                0x0000000000000000        0x8 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(tinfo.o)
+ .text._ZNSt9type_infoD0Ev
+                0x0000000000000000       0x1c /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(tinfo.o)
+ .ARM.extab.text._ZNSt9type_infoD0Ev
+                0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(tinfo.o)
+ .ARM.exidx.text._ZNSt9type_infoD0Ev
+                0x0000000000000000        0x8 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(tinfo.o)
+ .ARM.extab.text._ZNKSt9type_infoeqERKS_
+                0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(tinfo.o)
+ .text._ZNKSt9type_info10__do_catchEPKS_PPvj
+                0x0000000000000000        0x4 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(tinfo.o)
+ .ARM.extab.text._ZNKSt9type_info10__do_catchEPKS_PPvj
+                0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(tinfo.o)
+ .ARM.exidx.text._ZNKSt9type_info10__do_catchEPKS_PPvj
+                0x0000000000000000        0x8 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(tinfo.o)
+ .data.rel.ro._ZTVSt9type_info
+                0x0000000000000000       0x20 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(tinfo.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(tinfo.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(vterminate.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(vterminate.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(vterminate.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(vterminate.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(cp-demangle.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(cp-demangle.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(cp-demangle.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_type.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_type.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_type.o)
+ .ARM.extab.text.__cxa_current_exception_type
+                0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_type.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_type.o)
+ .data          0x0000000000000000        0x0 /usr/arm-linux-gnueabi/lib/libc_nonshared.a(elf-init.oS)
+ .bss           0x0000000000000000        0x0 /usr/arm-linux-gnueabi/lib/libc_nonshared.a(elf-init.oS)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/arm-linux-gnueabi/lib/libc_nonshared.a(elf-init.oS)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/crtend.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/crtend.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/crtend.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/crtend.o
+ .text          0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/../../../../arm-linux-gnueabi/lib/../lib/crtn.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/../../../../arm-linux-gnueabi/lib/../lib/crtn.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/../../../../arm-linux-gnueabi/lib/../lib/crtn.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/../../../../arm-linux-gnueabi/lib/../lib/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /usr/lib/gcc-cross/arm-linux-gnueabi/5/../../../../arm-linux-gnueabi/lib/../lib/crt1.o
+LOAD /usr/lib/gcc-cross/arm-linux-gnueabi/5/../../../../arm-linux-gnueabi/lib/../lib/crti.o
+LOAD /usr/lib/gcc-cross/arm-linux-gnueabi/5/crtbegin.o
+LOAD ./src/Project1.o
+LOAD ./src/control.o
+LOAD ./src/guidance.o
+LOAD ./src/navigator.o
+LOAD ./src/pid.o
+LOAD ./src/util.o
+LOAD /usr/local/EV3-API/API/libev3api.a
+LOAD /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a
+LOAD /usr/lib/gcc-cross/arm-linux-gnueabi/5/../../../../arm-linux-gnueabi/lib/../lib/libm.so
+LOAD /usr/lib/gcc-cross/arm-linux-gnueabi/5/libgcc_s.so
+START GROUP
+LOAD /usr/lib/gcc-cross/arm-linux-gnueabi/5/libgcc_s.so.1
+LOAD /usr/lib/gcc-cross/arm-linux-gnueabi/5/libgcc.a
+END GROUP
+LOAD /usr/lib/gcc-cross/arm-linux-gnueabi/5/libgcc.a
+LOAD /usr/lib/gcc-cross/arm-linux-gnueabi/5/../../../../arm-linux-gnueabi/lib/../lib/libc.so
+START GROUP
+LOAD /usr/arm-linux-gnueabi/lib/libc.so.6
+LOAD /usr/arm-linux-gnueabi/lib/libc_nonshared.a
+LOAD /usr/arm-linux-gnueabi/lib/ld-linux.so.3
+END GROUP
+LOAD /usr/lib/gcc-cross/arm-linux-gnueabi/5/libgcc_s.so
+START GROUP
+LOAD /usr/lib/gcc-cross/arm-linux-gnueabi/5/libgcc_s.so.1
+LOAD /usr/lib/gcc-cross/arm-linux-gnueabi/5/libgcc.a
+END GROUP
+LOAD /usr/lib/gcc-cross/arm-linux-gnueabi/5/libgcc.a
+LOAD /usr/lib/gcc-cross/arm-linux-gnueabi/5/crtend.o
+LOAD /usr/lib/gcc-cross/arm-linux-gnueabi/5/../../../../arm-linux-gnueabi/lib/../lib/crtn.o
+                [!provide]                        PROVIDE (__executable_start, 0x10000)
+                0x0000000000010174                . = (0x10000 + SIZEOF_HEADERS)
+
+.interp         0x0000000000010174       0x13
+ *(.interp)
+ .interp        0x0000000000010174       0x13 /usr/lib/gcc-cross/arm-linux-gnueabi/5/../../../../arm-linux-gnueabi/lib/../lib/crt1.o
+
+.note.ABI-tag   0x0000000000010188       0x20
+ .note.ABI-tag  0x0000000000010188       0x20 /usr/lib/gcc-cross/arm-linux-gnueabi/5/../../../../arm-linux-gnueabi/lib/../lib/crt1.o
+
+.note.gnu.build-id
+                0x00000000000101a8       0x24
+ *(.note.gnu.build-id)
+ .note.gnu.build-id
+                0x00000000000101a8       0x24 linker stubs
+
+.hash
+ *(.hash)
+
+.gnu.hash       0x00000000000101cc      0x3b0
+ *(.gnu.hash)
+ .gnu.hash      0x00000000000101cc      0x3b0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/../../../../arm-linux-gnueabi/lib/../lib/crt1.o
+
+.dynsym         0x000000000001057c      0x700
+ *(.dynsym)
+ .dynsym        0x000000000001057c      0x700 /usr/lib/gcc-cross/arm-linux-gnueabi/5/../../../../arm-linux-gnueabi/lib/../lib/crt1.o
+
+.dynstr         0x0000000000010c7c      0x74a
+ *(.dynstr)
+ .dynstr        0x0000000000010c7c      0x74a /usr/lib/gcc-cross/arm-linux-gnueabi/5/../../../../arm-linux-gnueabi/lib/../lib/crt1.o
+
+.gnu.version    0x00000000000113c6       0xe0
+ *(.gnu.version)
+ .gnu.version   0x00000000000113c6       0xe0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/../../../../arm-linux-gnueabi/lib/../lib/crt1.o
+
+.gnu.version_d  0x00000000000114a8        0x0
+ *(.gnu.version_d)
+ .gnu.version_d
+                0x00000000000114a8        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/../../../../arm-linux-gnueabi/lib/../lib/crt1.o
+
+.gnu.version_r  0x00000000000114a8       0xa0
+ *(.gnu.version_r)
+ .gnu.version_r
+                0x00000000000114a8       0xa0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/../../../../arm-linux-gnueabi/lib/../lib/crt1.o
+
+.rel.dyn        0x0000000000011548       0x28
+ *(.rel.init)
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+ *(.rel.fini)
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+ *(.rel.data.rel.ro .rel.data.rel.ro.* .rel.gnu.linkonce.d.rel.ro.*)
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+ *(.rel.ctors)
+ *(.rel.dtors)
+ *(.rel.got)
+ .rel.got       0x0000000000011548       0x20 /usr/lib/gcc-cross/arm-linux-gnueabi/5/../../../../arm-linux-gnueabi/lib/../lib/crt1.o
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+ .rel.bss       0x0000000000011568        0x8 /usr/lib/gcc-cross/arm-linux-gnueabi/5/../../../../arm-linux-gnueabi/lib/../lib/crt1.o
+                [!provide]                        PROVIDE (__rel_iplt_start, .)
+ *(.rel.iplt)
+ .rel.iplt      0x0000000000011570        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/../../../../arm-linux-gnueabi/lib/../lib/crt1.o
+                [!provide]                        PROVIDE (__rel_iplt_end, .)
+
+.rela.dyn       0x0000000000011570        0x0
+ *(.rela.init)
+ *(.rela.text .rela.text.* .rela.gnu.linkonce.t.*)
+ *(.rela.fini)
+ *(.rela.rodata .rela.rodata.* .rela.gnu.linkonce.r.*)
+ *(.rela.data .rela.data.* .rela.gnu.linkonce.d.*)
+ *(.rela.tdata .rela.tdata.* .rela.gnu.linkonce.td.*)
+ *(.rela.tbss .rela.tbss.* .rela.gnu.linkonce.tb.*)
+ *(.rela.ctors)
+ *(.rela.dtors)
+ *(.rela.got)
+ *(.rela.bss .rela.bss.* .rela.gnu.linkonce.b.*)
+                [!provide]                        PROVIDE (__rela_iplt_start, .)
+ *(.rela.iplt)
+                [!provide]                        PROVIDE (__rela_iplt_end, .)
+
+.rel.plt        0x0000000000011570      0x278
+ *(.rel.plt)
+ .rel.plt       0x0000000000011570      0x278 /usr/lib/gcc-cross/arm-linux-gnueabi/5/../../../../arm-linux-gnueabi/lib/../lib/crt1.o
+
+.rela.plt
+ *(.rela.plt)
+
+.init           0x00000000000117e8        0xc
+ *(SORT(.init))
+ .init          0x00000000000117e8        0x8 /usr/lib/gcc-cross/arm-linux-gnueabi/5/../../../../arm-linux-gnueabi/lib/../lib/crti.o
+                0x00000000000117e8                _init
+ .init          0x00000000000117f0        0x4 /usr/lib/gcc-cross/arm-linux-gnueabi/5/../../../../arm-linux-gnueabi/lib/../lib/crtn.o
+
+.plt            0x00000000000117f4      0x3c8
+ *(.plt)
+ .plt           0x00000000000117f4      0x3c8 /usr/lib/gcc-cross/arm-linux-gnueabi/5/../../../../arm-linux-gnueabi/lib/../lib/crt1.o
+                0x0000000000011808                pthread_mutex_unlock@@GLIBC_2.4
+                0x0000000000011814                __aeabi_dcmpge@@GCC_3.5
+                0x0000000000011820                __aeabi_uidiv@@GCC_3.5
+                0x000000000001182c                setitimer@@GLIBC_2.4
+                0x0000000000011838                strcmp@@GLIBC_2.4
+                0x0000000000011844                fopen@@GLIBC_2.4
+                0x0000000000011850                read@@GLIBC_2.4
+                0x000000000001185c                memmove@@GLIBC_2.4
+                0x0000000000011868                free@@GLIBC_2.4
+                0x0000000000011874                pthread_mutex_lock@@GLIBC_2.4
+                0x0000000000011880                nanosleep@@GLIBC_2.4
+                0x000000000001188c                _Unwind_GetRegionStart@@GCC_3.0
+                0x0000000000011898                memcpy@@GLIBC_2.4
+                0x00000000000118a4                _Unwind_GetTextRelBase@@GCC_3.0
+                0x00000000000118b0                _Unwind_RaiseException@@GCC_3.0
+                0x00000000000118bc                __aeabi_i2d@@GCC_3.5
+                0x00000000000118c8                memcmp@@GLIBC_2.4
+                0x00000000000118d4                sincos@@GLIBC_2.4
+                0x00000000000118e0                __aeabi_idivmod@@GCC_3.5
+                0x00000000000118ec                _Unwind_Resume_or_Rethrow@@GCC_3.3
+                0x00000000000118f8                strdup@@GLIBC_2.4
+                0x0000000000011904                __stack_chk_fail@@GLIBC_2.4
+                0x0000000000011910                realloc@@GLIBC_2.4
+                0x000000000001191c                sigaction@@GLIBC_2.4
+                0x0000000000011928                fwrite@@GLIBC_2.4
+                0x0000000000011934                strcat@@GLIBC_2.4
+                0x0000000000011940                ioctl@@GLIBC_2.4
+                0x000000000001194c                usleep@@GLIBC_2.4
+                0x0000000000011958                __aeabi_d2iz@@GCC_3.5
+                0x0000000000011964                strcpy@@GLIBC_2.4
+                0x0000000000011970                gettimeofday@@GLIBC_2.4
+                0x000000000001197c                _Unwind_GetLanguageSpecificData@@GCC_3.0
+                0x0000000000011988                _Unwind_VRS_Get@@GCC_3.5
+                0x0000000000011994                puts@@GLIBC_2.4
+                0x00000000000119a0                malloc@@GLIBC_2.4
+                0x00000000000119ac                __libc_start_main@@GLIBC_2.4
+                0x00000000000119b8                dirname@@GLIBC_2.4
+                0x00000000000119d0                __gnu_unwind_frame@@GCC_3.5
+                0x00000000000119dc                open@@GLIBC_2.4
+                0x00000000000119e8                __aeabi_llsr@@GCC_3.5
+                0x00000000000119f4                __aeabi_idiv@@GCC_3.5
+                0x0000000000011a00                strlen@@GLIBC_2.4
+                0x0000000000011a0c                mmap@@GLIBC_2.4
+                0x0000000000011a18                __aeabi_ddiv@@GCC_3.5
+                0x0000000000011a24                fprintf@@GLIBC_2.4
+                0x0000000000011a30                sqrt@@GLIBC_2.4
+                0x0000000000011a3c                __sprintf_chk@@GLIBC_2.4
+                0x0000000000011a48                __aeabi_uidivmod@@GCC_3.5
+                0x0000000000011a54                memset@@GLIBC_2.4
+                0x0000000000011a60                __aeabi_dsub@@GCC_3.5
+                0x0000000000011a6c                __xpg_basename@@GLIBC_2.4
+                0x0000000000011a78                _Unwind_Complete@@GCC_3.5
+                0x0000000000011a84                __aeabi_fmul@@GCC_3.5
+                0x0000000000011a90                write@@GLIBC_2.4
+                0x0000000000011a9c                __aeabi_uldivmod@@GCC_3.5
+                0x0000000000011aa8                vsprintf@@GLIBC_2.4
+                0x0000000000011ab4                fclose@@GLIBC_2.4
+                0x0000000000011ac0                __aeabi_dmul@@GCC_3.5
+                0x0000000000011acc                _Unwind_GetDataRelBase@@GCC_3.0
+                0x0000000000011ad8                munmap@@GLIBC_2.4
+                0x0000000000011ae4                strrchr@@GLIBC_2.4
+                0x0000000000011af0                fputc@@GLIBC_2.4
+                0x0000000000011afc                sscanf@@GLIBC_2.4
+                0x0000000000011b08                vsnprintf@@GLIBC_2.4
+                0x0000000000011b14                _Unwind_VRS_Set@@GCC_3.5
+                0x0000000000011b20                __aeabi_dcmpgt@@GCC_3.5
+                0x0000000000011b2c                __tls_get_addr@@GLIBC_2.4
+                0x0000000000011b38                _Unwind_DeleteException@@GCC_3.0
+                0x0000000000011b44                strncat@@GLIBC_2.4
+                0x0000000000011b50                _Unwind_Resume@@GCC_3.0
+                0x0000000000011b5c                __aeabi_dcmplt@@GCC_3.5
+                0x0000000000011b68                fputs@@GLIBC_2.4
+                0x0000000000011b74                strncmp@@GLIBC_2.4
+                0x0000000000011b80                abort@@GLIBC_2.4
+                0x0000000000011b8c                __aeabi_dcmple@@GCC_3.5
+                0x0000000000011b98                close@@GLIBC_2.4
+                0x0000000000011ba4                atan2@@GLIBC_2.4
+                0x0000000000011bb0                __aeabi_dadd@@GCC_3.5
+
+.iplt           0x0000000000011bbc        0x0
+ *(.iplt)
+ .iplt          0x0000000000011bbc        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/../../../../arm-linux-gnueabi/lib/../lib/crt1.o
+
+.text           0x0000000000011bbc    0x126a8
+ *(.text.unlikely .text.*_unlikely .text.unlikely.*)
+ *(.text.exit .text.exit.*)
+ *(.text.startup .text.startup.*)
+ .text.startup.main
+                0x0000000000011bbc      0x168 ./src/Project1.o
+                0x0000000000011bbc                main
+ .text.startup._GLOBAL__sub_I_new_handler.cc
+                0x0000000000011d24       0x2c /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(new_handler.o)
+ .text.startup._GLOBAL__sub_I_eh_terminate.cc
+                0x0000000000011d50       0x2c /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_terminate.o)
+ .text.startup._GLOBAL__sub_I_eh_alloc.cc
+                0x0000000000011d7c       0x5c /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_alloc.o)
+ *(.text.hot .text.hot.*)
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x0000000000011dd8       0x3c /usr/lib/gcc-cross/arm-linux-gnueabi/5/../../../../arm-linux-gnueabi/lib/../lib/crt1.o
+                0x0000000000011dd8                _start
+ .text          0x0000000000011e14       0x24 /usr/lib/gcc-cross/arm-linux-gnueabi/5/../../../../arm-linux-gnueabi/lib/../lib/crti.o
+ .text          0x0000000000011e38       0xc8 /usr/lib/gcc-cross/arm-linux-gnueabi/5/crtbegin.o
+ .text._ZN15RobotControllerC2ER5Robot
+                0x0000000000011f00       0x64 ./src/control.o
+                0x0000000000011f00                RobotController::RobotController(Robot&)
+                0x0000000000011f00                RobotController::RobotController(Robot&)
+ .text._ZN15RobotController4moveEcc
+                0x0000000000011f64       0x44 ./src/control.o
+                0x0000000000011f64                RobotController::move(char, char)
+ .text._ZN15RobotController13command_stateERK10RobotState
+                0x0000000000011fa8      0x234 ./src/control.o
+                0x0000000000011fa8                RobotController::command_state(RobotState const&)
+ .text._ZN15RobotController4stopEv
+                0x00000000000121dc       0x28 ./src/control.o
+                0x00000000000121dc                RobotController::stop()
+ .text._ZN13RobotGuidanceC2ER5Robot
+                0x0000000000012204       0x38 ./src/guidance.o
+                0x0000000000012204                RobotGuidance::RobotGuidance(Robot&)
+                0x0000000000012204                RobotGuidance::RobotGuidance(Robot&)
+ .text._ZN13RobotGuidance7at_goalEv
+                0x000000000001223c       0x20 ./src/guidance.o
+                0x000000000001223c                RobotGuidance::at_goal()
+ .text._ZN13RobotGuidance10next_stateEv
+                0x000000000001225c      0x488 ./src/guidance.o
+                0x000000000001225c                RobotGuidance::next_state()
+ .text._ZNSt6vectorI8WaypointSaIS0_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS0_S2_EERKS0_
+                0x00000000000126e4      0x128 ./src/guidance.o
+                0x00000000000126e4                std::vector<Waypoint, std::allocator<Waypoint> >::_M_insert_aux(__gnu_cxx::__normal_iterator<Waypoint*, std::vector<Waypoint, std::allocator<Waypoint> > >, Waypoint const&)
+ .text._ZN13RobotGuidance12add_waypointEdd
+                0x000000000001280c       0x8c ./src/guidance.o
+                0x000000000001280c                RobotGuidance::add_waypoint(double, double)
+ .text._ZN14RobotNavigatorC2ER5Robot
+                0x0000000000012898       0x2c ./src/navigator.o
+                0x0000000000012898                RobotNavigator::RobotNavigator(Robot&)
+                0x0000000000012898                RobotNavigator::RobotNavigator(Robot&)
+ .text._ZN14RobotNavigator15estimate_updateERdS0_
+                0x00000000000128c4      0x11c ./src/navigator.o
+                0x00000000000128c4                RobotNavigator::estimate_update(double&, double&)
+ .text._ZN14RobotNavigator14estimate_stateEv
+                0x00000000000129e0       0xe4 ./src/navigator.o
+                0x00000000000129e0                RobotNavigator::estimate_state()
+ .text._ZN13ControllerPidC2Eddd
+                0x0000000000012ac4       0x34 ./src/pid.o
+                0x0000000000012ac4                ControllerPid::ControllerPid(double, double, double)
+                0x0000000000012ac4                ControllerPid::ControllerPid(double, double, double)
+ .text._ZN13ControllerPid5applyEi
+                0x0000000000012af8       0xc4 ./src/pid.o
+                0x0000000000012af8                ControllerPid::apply(int)
+ .text._Z12clear_screenv
+                0x0000000000012bbc       0x60 ./src/util.o
+                0x0000000000012bbc                clear_screen()
+ .text._Z12lookup_powerd
+                0x0000000000012c1c      0x150 ./src/util.o
+                0x0000000000012c1c                lookup_power(double)
+ .text._Z12lookup_speedc
+                0x0000000000012d6c      0x118 ./src/util.o
+                0x0000000000012d6c                lookup_speed(char)
+ .text._Z4normRdS_
+                0x0000000000012e84       0x8c ./src/util.o
+                0x0000000000012e84                norm(double&, double&)
+ .text._Z4distdddd
+                0x0000000000012f10       0x94 ./src/util.o
+                0x0000000000012f10                dist(double, double, double, double)
+ .text._Z11clamp_angled
+                0x0000000000012fa4       0xc4 ./src/util.o
+                0x0000000000012fa4                clamp_angle(double)
+ .text._Z10angle_diffdd
+                0x0000000000013068       0xb0 ./src/util.o
+                0x0000000000013068                angle_diff(double, double)
+ .text          0x0000000000013118      0x600 /usr/local/EV3-API/API/libev3api.a(ev3_button.o)
+                0x0000000000013118                checkButtons
+                0x0000000000013154                ButtonLedInitialized
+                0x000000000001317c                MappedPattern
+                0x00000000000131b4                LedWarning
+                0x00000000000131d0                LedPattern
+                0x00000000000131f4                getButtons
+                0x000000000001321c                readButtons
+                0x0000000000013234                ButtonIsUp
+                0x0000000000013250                ButtonIsDown
+                0x0000000000013264                ButtonState
+                0x000000000001327c                ReadButtonEx
+                0x000000000001329c                ButtonPressedEx
+                0x00000000000132a0                buttonClear
+                0x00000000000132bc                ButtonLedClose
+                0x00000000000132d8                ButtonLedOpen
+                0x00000000000132f4                ButtonWaitForAnyPress
+                0x0000000000013380                ButtonWaitForPress
+                0x000000000001339c                ButtonWaitForAnyEvent
+                0x0000000000013434                ButtonWaitForPressAndRelease
+                0x0000000000013458                HardwareVersionString
+                0x0000000000013494                HardwareVersion
+                0x00000000000134f8                WriteToButtonLedDevice
+                0x0000000000013538                UpdateLed
+                0x0000000000013588                SetLedPattern
+                0x00000000000135bc                ButtonLedCloseDevices
+                0x0000000000013630                ButtonLedExit
+                0x000000000001364c                ButtonLedInit
+                0x00000000000136e0                SetLedWarning
+ .text          0x0000000000013718     0x1340 /usr/local/EV3-API/API/libev3api.a(ev3_output.o)
+                0x0000000000013718                OutputToMotorNum
+                0x0000000000013770                DecodeOutputs
+                0x000000000001378c                OutputInitialized
+                0x00000000000137b4                OutputRead
+                0x0000000000013868                OutputGetCount
+                0x000000000001388c                OutputGetTachoCount
+                0x00000000000138b0                OutputGetActualSpeed
+                0x00000000000138d0                MotorTachoCount
+                0x00000000000138ec                MotorBlockTachoCount
+                0x0000000000013908                MotorPower
+                0x0000000000013924                MotorActualSpeed
+                0x0000000000013940                MotorRotationCount
+                0x000000000001395c                OutputState
+                0x0000000000013a08                OutputTest
+                0x0000000000013ac0                MotorBusy
+                0x0000000000013adc                WriteToPWMDevice
+                0x0000000000013b1c                OutputClearCount
+                0x0000000000013bbc                ResetRotationCount
+                0x0000000000013bc0                OutputTimeSyncEx
+                0x0000000000013cb4                OnForSyncEx
+                0x0000000000013ce0                OutputStepSyncEx
+                0x0000000000013dd4                OutputTimeSpeedEx
+                0x0000000000013ea4                OutputStepSpeedEx
+                0x0000000000013f74                RotateMotorNoWaitEx
+                0x0000000000014030                RotateMotorEx
+                0x0000000000014074                OutputTimePowerEx
+                0x0000000000014144                OutputStepPowerEx
+                0x0000000000014214                OutputPolarity
+                0x0000000000014280                SetDirection
+                0x0000000000014298                Rev
+                0x00000000000142a0                Fwd
+                0x00000000000142a8                Toggle
+                0x00000000000142b0                OutputStartEx
+                0x0000000000014350                OutputPower
+                0x00000000000143bc                SetPower
+                0x00000000000143c0                OutputSpeed
+                0x000000000001442c                SetSpeed
+                0x0000000000014430                OutputReset
+                0x0000000000014494                ResetAllTachoCounts
+                0x00000000000144ac                ResetTachoCount
+                0x00000000000144b0                ResetBlockAndTachoCount
+                0x00000000000144b4                ResetBlockTachoCount
+                0x00000000000144b8                ResetCount
+                0x0000000000014500                OnFwdSyncEx
+                0x000000000001453c                OnRevSyncEx
+                0x0000000000014548                OutputSetTypes
+                0x00000000000145f8                OutputSetTypesArray
+                0x0000000000014610                OutputSetType
+                0x0000000000014688                OutputProgramStop
+                0x00000000000146bc                OutputStop
+                0x0000000000014728                SetOutputEx
+                0x0000000000014780                FloatEx
+                0x000000000001478c                OffEx
+                0x0000000000014798                OnEx
+                0x00000000000147a4                OnForEx
+                0x00000000000147e0                OnRevRegEx
+                0x0000000000014810                OnFwdRegEx
+                0x0000000000014840                OnRevEx
+                0x0000000000014870                OnFwdEx
+                0x00000000000148a0                ResetOutputs
+                0x00000000000148c8                OutputExit
+                0x0000000000014938                OutputClose
+                0x0000000000014950                OutputOpen
+                0x0000000000014990                OutputInit
+ .text          0x0000000000014a58       0x6c /usr/local/EV3-API/API/libev3api.a(ev3.o)
+                0x0000000000014a58                CloseEV3
+                0x0000000000014a6c                FreeEV3
+                0x0000000000014a8c                ExitEV3
+                0x0000000000014aa4                InitEV3
+ .text          0x0000000000014ac4     0x2c38 /usr/local/EV3-API/API/libev3api.a(ev3_lcd.o)
+                0x0000000000014ac4                dLcdGetFontWidth
+                0x0000000000014adc                dLcdGetFontHeight
+                0x0000000000014af4                dLcdGetIconBits
+                0x0000000000014b0c                dLcdGetIconWidth
+                0x0000000000014b24                dLcdGetIconHeight
+                0x0000000000014b3c                dLcdGetNumIcons
+                0x0000000000014b6c                frameBufferToLcd
+                0x0000000000014ca4                lcdToFrameBuffer
+                0x0000000000014ddc                LcdOpen
+                0x0000000000014de4                LcdClose
+                0x0000000000014dec                LcdInitialized
+                0x0000000000014e14                dLcdDrawPixel
+                0x0000000000014ec0                dLcdReadPixel
+                0x0000000000014f28                dLcdDrawChar
+                0x000000000001525c                dLcdDrawText
+                0x00000000000152dc                dLcdDrawPicture
+                0x000000000001539c                dLcdDrawIcon
+                0x0000000000015440                dLcdGetBitmapSize
+                0x0000000000015464                dLcdDrawBitmap
+                0x00000000000156e0                LcdSetAutoRefresh
+                0x00000000000156f0                LcdSelectFont
+                0x0000000000015728                LcdGetDisplay
+                0x0000000000015744                reverse_bits
+                0x0000000000015754                LcdText
+                0x00000000000157ac                LcdIcon
+                0x0000000000015800                LcdPicture
+                0x0000000000015850                DisplayLineHeight
+                0x0000000000015874                DisplaySetPixel
+                0x00000000000158c8                DisplayClrPixel
+                0x000000000001591c                DisplayXorPixel
+                0x0000000000015970                DisplayFillScreen
+                0x0000000000015acc                DisplayLineX
+                0x0000000000015ba0                DisplayLineY
+                0x0000000000015c54                DisplayFrame
+                0x0000000000015cdc                CmdResolveDrawingMode
+                0x0000000000015d58                TextOutEx
+                0x0000000000015d6c                NumOutEx
+                0x0000000000015d80                PolyOutEx
+                0x0000000000015d88                GraphicOutEx
+                0x0000000000015d90                GraphicArrayOutEx
+                0x0000000000015d98                vasprintf
+                0x0000000000015df0                LcdPrintf
+                0x0000000000015fb8                LcdTextf
+                0x0000000000016004                asprintf
+                0x000000000001602c                DisplayErase
+                0x0000000000016054                DisplayEraseLine
+                0x00000000000160a0                DisplayDraw
+                0x00000000000161a4                CmdDrawLine
+                0x0000000000016494                LineOutEx
+                0x0000000000016504                CmdDrawRect
+                0x0000000000016664                RectOutEx
+                0x00000000000166d8                CmdSetPixel
+                0x0000000000016728                PointOutEx
+                0x000000000001677c                CmdDrawEllipse
+                0x0000000000016ce4                EllipseOutEx
+                0x0000000000016d60                CmdDrawCircle
+                0x0000000000016d94                CircleOutEx
+                0x0000000000016e00                LcdFillWindow
+                0x0000000000016f0c                LcdClean
+                0x0000000000016f4c                LcdClearDisplay
+                0x0000000000016f68                LcdBmpFile
+                0x0000000000016ffc                _lcdWriteBytesToFile
+                0x0000000000017344                LcdWriteDisplayToFile
+                0x0000000000017380                LcdGetFrameBuffer
+                0x00000000000173c0                LcdWriteFrameBufferToFile
+                0x00000000000173fc                LcdScroll
+                0x00000000000174c8                doUpdateScreen
+                0x0000000000017520                LcdUpdate
+                0x000000000001754c                LcdRefresh
+                0x0000000000017564                LcdUpdateHandler
+                0x000000000001757c                LcdCloseDevices
+                0x00000000000175d0                LcdExit
+                0x0000000000017600                LcdInit
+                0x00000000000176bc                WriteToLcdDevice
+ .text          0x00000000000176fc      0x698 /usr/local/EV3-API/API/libev3api.a(ev3_timer.o)
+                0x00000000000176fc                _timerSigHandler
+                0x0000000000017894                SetTimerCallback
+                0x0000000000017968                TimerGetMS
+                0x00000000000179a4                TimerGetCS
+                0x00000000000179c0                SetTimer
+                0x0000000000017a00                ClearTimer
+                0x0000000000017a2c                FastTimer
+                0x0000000000017a5c                Timer
+                0x0000000000017a70                SetTimerMS
+                0x0000000000017ab0                ClearTimerMS
+                0x0000000000017adc                TimerMS
+                0x0000000000017b0c                TimerWait
+                0x0000000000017b20                TimerGetUS
+                0x0000000000017b50                SetTimerUS
+                0x0000000000017b90                ClearTimerUS
+                0x0000000000017bbc                TimerUS
+                0x0000000000017bec                _timerCallbackInit
+                0x0000000000017cdc                TimerInit
+                0x0000000000017d64                TimerReady
+ .text          0x0000000000017d94      0x874 /usr/local/EV3-API/API/libev3api.a(ev3sensor.o)
+                0x0000000000017d94                readUartSensor
+                0x0000000000017dd4                readIicSensor
+                0x0000000000017e14                readNewDumbSensor
+                0x0000000000017e2c                readOldDumbSensor
+                0x0000000000017e40                readNxtColor
+                0x0000000000017e48                readSensorData
+                0x0000000000017f24                readSensor
+                0x00000000000181ac                setSensorMode
+                0x00000000000182b4                setIRBeaconCH
+                0x00000000000182c8                setAllSensorMode
+                0x00000000000184d8                initSensors
+ .text          0x0000000000018608       0x48 /usr/local/EV3-API/API/libev3api.a(ev3_command.o)
+                0x0000000000018608                Wait
+ .text._Znwj    0x0000000000018650       0x78 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(new_op.o)
+                0x0000000000018650                operator new(unsigned int)
+ .text._ZL28read_encoded_value_with_basehjPKhPj
+                0x00000000000186c8      0x16c /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_personality.o)
+ .text._ZL21base_of_encoded_valuehP15_Unwind_Context
+                0x0000000000018834       0x74 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_personality.o)
+ .text._ZL17parse_lsda_headerP15_Unwind_ContextPKhP16lsda_header_info
+                0x00000000000188a8       0xe0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_personality.o)
+ .text.__gxx_personality_v0
+                0x0000000000018988      0x788 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_personality.o)
+                0x0000000000018988                __gxx_personality_v0
+ .text._ZNK9__gnu_cxx24__concurrence_lock_error4whatEv
+                0x0000000000019110       0x10 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(new_handler.o)
+                0x0000000000019110                __gnu_cxx::__concurrence_lock_error::what() const
+ .text._ZNK9__gnu_cxx26__concurrence_unlock_error4whatEv
+                0x0000000000019120       0x10 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(new_handler.o)
+                0x0000000000019120                __gnu_cxx::__concurrence_unlock_error::what() const
+ .text._ZN9__gnu_cxx24__concurrence_lock_errorD2Ev
+                0x0000000000019130       0x34 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(new_handler.o)
+                0x0000000000019130                __gnu_cxx::__concurrence_lock_error::~__concurrence_lock_error()
+                0x0000000000019130                __gnu_cxx::__concurrence_lock_error::~__concurrence_lock_error()
+ .text._ZN9__gnu_cxx26__concurrence_unlock_errorD2Ev
+                0x0000000000019164       0x34 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(new_handler.o)
+                0x0000000000019164                __gnu_cxx::__concurrence_unlock_error::~__concurrence_unlock_error()
+                0x0000000000019164                __gnu_cxx::__concurrence_unlock_error::~__concurrence_unlock_error()
+ .text._ZN9__gnu_cxx24__concurrence_lock_errorD0Ev
+                0x0000000000019198       0x3c /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(new_handler.o)
+                0x0000000000019198                __gnu_cxx::__concurrence_lock_error::~__concurrence_lock_error()
+ .text._ZN9__gnu_cxx26__concurrence_unlock_errorD0Ev
+                0x00000000000191d4       0x3c /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(new_handler.o)
+                0x00000000000191d4                __gnu_cxx::__concurrence_unlock_error::~__concurrence_unlock_error()
+ .text._ZN9__gnu_cxx30__throw_concurrence_lock_errorEv
+                0x0000000000019210       0x48 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(new_handler.o)
+                0x0000000000019210                __gnu_cxx::__throw_concurrence_lock_error()
+ .text._ZN9__gnu_cxx32__throw_concurrence_unlock_errorEv
+                0x0000000000019258       0x48 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(new_handler.o)
+                0x0000000000019258                __gnu_cxx::__throw_concurrence_unlock_error()
+ .text._ZSt15get_new_handlerv
+                0x00000000000192a0       0x94 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(new_handler.o)
+                0x00000000000192a0                std::get_new_handler()
+ .text._ZdlPv   0x0000000000019334        0x4 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(del_op.o)
+                0x0000000000019334                operator delete(void*)
+ .text._ZN10__cxxabiv120__si_class_type_infoD2Ev
+                0x0000000000019338       0x34 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(si_class_type_info.o)
+                0x0000000000019338                __cxxabiv1::__si_class_type_info::~__si_class_type_info()
+                0x0000000000019338                __cxxabiv1::__si_class_type_info::~__si_class_type_info()
+ .text._ZN10__cxxabiv120__si_class_type_infoD0Ev
+                0x000000000001936c       0x1c /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(si_class_type_info.o)
+                0x000000000001936c                __cxxabiv1::__si_class_type_info::~__si_class_type_info()
+ .text._ZNK10__cxxabiv120__si_class_type_info12__do_dyncastEiNS_17__class_type_info10__sub_kindEPKS1_PKvS4_S6_RNS1_16__dyncast_resultE
+                0x0000000000019388       0xec /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(si_class_type_info.o)
+                0x0000000000019388                __cxxabiv1::__si_class_type_info::__do_dyncast(int, __cxxabiv1::__class_type_info::__sub_kind, __cxxabiv1::__class_type_info const*, void const*, __cxxabiv1::__class_type_info const*, void const*, __cxxabiv1::__class_type_info::__dyncast_result&) const
+ .text._ZNK10__cxxabiv120__si_class_type_info20__do_find_public_srcEiPKvPKNS_17__class_type_infoES2_
+                0x0000000000019474       0x6c /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(si_class_type_info.o)
+                0x0000000000019474                __cxxabiv1::__si_class_type_info::__do_find_public_src(int, void const*, __cxxabiv1::__class_type_info const*, void const*) const
+ .text._ZNK10__cxxabiv120__si_class_type_info11__do_upcastEPKNS_17__class_type_infoEPKvRNS1_15__upcast_resultE
+                0x00000000000194e0       0x44 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(si_class_type_info.o)
+                0x00000000000194e0                __cxxabiv1::__si_class_type_info::__do_upcast(__cxxabiv1::__class_type_info const*, void const*, __cxxabiv1::__class_type_info::__upcast_result&) const
+ .text._ZNSt9exceptionD2Ev
+                0x0000000000019524        0x4 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_exception.o)
+                0x0000000000019524                std::exception::~exception()
+                0x0000000000019524                std::exception::~exception()
+ .text._ZNSt13bad_exceptionD2Ev
+                0x0000000000019528       0x34 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_exception.o)
+                0x0000000000019528                std::bad_exception::~bad_exception()
+                0x0000000000019528                std::bad_exception::~bad_exception()
+ .text._ZNKSt13bad_exception4whatEv
+                0x000000000001955c       0x10 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_exception.o)
+                0x000000000001955c                std::bad_exception::what() const
+ .text._ZNSt13bad_exceptionD0Ev
+                0x000000000001956c       0x1c /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_exception.o)
+                0x000000000001956c                std::bad_exception::~bad_exception()
+ .text._ZNKSt9bad_alloc4whatEv
+                0x0000000000019588       0x10 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(bad_alloc.o)
+                0x0000000000019588                std::bad_alloc::what() const
+ .text._ZNSt9bad_allocD2Ev
+                0x0000000000019598       0x34 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(bad_alloc.o)
+                0x0000000000019598                std::bad_alloc::~bad_alloc()
+                0x0000000000019598                std::bad_alloc::~bad_alloc()
+ .text._ZNSt9bad_allocD0Ev
+                0x00000000000195cc       0x1c /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(bad_alloc.o)
+                0x00000000000195cc                std::bad_alloc::~bad_alloc()
+ .text._ZL23__gxx_exception_cleanup19_Unwind_Reason_CodeP21_Unwind_Control_Block
+                0x00000000000195e8       0x38 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_throw.o)
+ .text.__cxa_throw
+                0x0000000000019620       0xa0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_throw.o)
+                0x0000000000019620                __cxa_throw
+ .text.__cxa_rethrow
+                0x00000000000196c0       0xb0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_throw.o)
+                0x00000000000196c0                __cxa_rethrow
+ .text._ZN10__cxxabiv111__terminateEPFvvE
+                0x0000000000019770       0x14 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_terminate.o)
+                0x0000000000019770                __cxxabiv1::__terminate(void (*)())
+ .text._ZSt13get_terminatev
+                0x0000000000019784       0xc8 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_terminate.o)
+                0x0000000000019784                std::get_terminate()
+ .text._ZSt9terminatev
+                0x000000000001984c        0xc /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_terminate.o)
+                0x000000000001984c                std::terminate()
+ .text._ZN10__cxxabiv112__unexpectedEPFvvE
+                0x0000000000019858        0xc /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_terminate.o)
+                0x0000000000019858                __cxxabiv1::__unexpected(void (*)())
+ .text._ZSt14get_unexpectedv
+                0x0000000000019864       0xc8 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_terminate.o)
+                0x0000000000019864                std::get_unexpected()
+ .text._ZSt10unexpectedv
+                0x000000000001992c        0xc /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_terminate.o)
+                0x000000000001992c                std::unexpected()
+ .text.__cxa_get_globals_fast
+                0x0000000000019938       0x24 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_globals.o)
+                0x0000000000019938                __cxa_get_globals_fast
+ .text.__cxa_get_globals
+                0x000000000001995c       0x24 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_globals.o)
+                0x000000000001995c                __cxa_get_globals
+ .text.__cxa_call_terminate
+                0x0000000000019980       0x7c /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_call.o)
+                0x0000000000019980                __cxa_call_terminate
+ .text.__cxa_call_unexpected
+                0x00000000000199fc      0x1cc /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_call.o)
+                0x00000000000199fc                __cxa_call_unexpected
+ .text.__cxa_end_cleanup
+                0x0000000000019bc8       0x10 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_arm.o)
+                0x0000000000019bc8                __cxa_end_cleanup
+ .text.__cxa_type_match
+                0x0000000000019bd8      0x184 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_arm.o)
+                0x0000000000019bd8                __cxa_type_match
+ .text.__cxa_begin_cleanup
+                0x0000000000019d5c       0xb4 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_arm.o)
+                0x0000000000019d5c                __cxa_begin_cleanup
+ .text.__gnu_end_cleanup
+                0x0000000000019e10       0xb4 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_arm.o)
+                0x0000000000019e10                __gnu_end_cleanup
+ .text._ZNK10__cxxabiv117__class_type_info11__do_upcastEPKS0_PPv
+                0x0000000000019ec4       0x90 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(class_type_info.o)
+                0x0000000000019ec4                __cxxabiv1::__class_type_info::__do_upcast(__cxxabiv1::__class_type_info const*, void**) const
+ .text._ZNK10__cxxabiv117__class_type_info20__do_find_public_srcEiPKvPKS0_S2_
+                0x0000000000019f54       0x14 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(class_type_info.o)
+                0x0000000000019f54                __cxxabiv1::__class_type_info::__do_find_public_src(int, void const*, __cxxabiv1::__class_type_info const*, void const*) const
+ .text._ZN10__cxxabiv117__class_type_infoD2Ev
+                0x0000000000019f68       0x34 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(class_type_info.o)
+                0x0000000000019f68                __cxxabiv1::__class_type_info::~__class_type_info()
+                0x0000000000019f68                __cxxabiv1::__class_type_info::~__class_type_info()
+ .text._ZN10__cxxabiv117__class_type_infoD0Ev
+                0x0000000000019f9c       0x1c /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(class_type_info.o)
+                0x0000000000019f9c                __cxxabiv1::__class_type_info::~__class_type_info()
+ .text._ZNK10__cxxabiv117__class_type_info11__do_upcastEPKS0_PKvRNS0_15__upcast_resultE
+                0x0000000000019fb8       0x2c /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(class_type_info.o)
+                0x0000000000019fb8                __cxxabiv1::__class_type_info::__do_upcast(__cxxabiv1::__class_type_info const*, void const*, __cxxabiv1::__class_type_info::__upcast_result&) const
+ .text._ZNK10__cxxabiv117__class_type_info12__do_dyncastEiNS0_10__sub_kindEPKS0_PKvS3_S5_RNS0_16__dyncast_resultE
+                0x0000000000019fe4       0x6c /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(class_type_info.o)
+                0x0000000000019fe4                __cxxabiv1::__class_type_info::__do_dyncast(int, __cxxabiv1::__class_type_info::__sub_kind, __cxxabiv1::__class_type_info const*, void const*, __cxxabiv1::__class_type_info const*, void const*, __cxxabiv1::__class_type_info::__dyncast_result&) const
+ .text._ZNK10__cxxabiv117__class_type_info10__do_catchEPKSt9type_infoPPvj
+                0x000000000001a050       0x44 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(class_type_info.o)
+                0x000000000001a050                __cxxabiv1::__class_type_info::__do_catch(std::type_info const*, void**, unsigned int) const
+ .text._ZN12_GLOBAL__N_14pool4freeEPv.constprop.2
+                0x000000000001a094      0x174 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_alloc.o)
+ .text._ZN12_GLOBAL__N_14pool8allocateEj.constprop.3
+                0x000000000001a208      0x15c /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_alloc.o)
+ .text.__cxa_allocate_exception
+                0x000000000001a364       0x54 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_alloc.o)
+                0x000000000001a364                __cxa_allocate_exception
+ .text.__cxa_free_exception
+                0x000000000001a3b8       0x4c /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_alloc.o)
+                0x000000000001a3b8                __cxa_free_exception
+ .text.__cxa_begin_catch
+                0x000000000001a404       0xe8 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_catch.o)
+                0x000000000001a404                __cxa_begin_catch
+ .text.__cxa_end_catch
+                0x000000000001a4ec       0xd8 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_catch.o)
+                0x000000000001a4ec                __cxa_end_catch
+ .text._ZNSt9type_infoD2Ev
+                0x000000000001a5c4        0x4 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(tinfo.o)
+                0x000000000001a5c4                std::type_info::~type_info()
+                0x000000000001a5c4                std::type_info::~type_info()
+ .text._ZNKSt9type_info15__is_function_pEv
+                0x000000000001a5c8        0x8 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(tinfo.o)
+                0x000000000001a5c8                std::type_info::__is_pointer_p() const
+                0x000000000001a5c8                std::type_info::__is_function_p() const
+ .text._ZNKSt9type_infoeqERKS_
+                0x000000000001a5d0       0x4c /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(tinfo.o)
+                0x000000000001a5d0                std::type_info::operator==(std::type_info const&) const
+ .text._ZN9__gnu_cxx27__verbose_terminate_handlerEv
+                0x000000000001a61c      0x1c0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(vterminate.o)
+                0x000000000001a61c                __gnu_cxx::__verbose_terminate_handler()
+ .text          0x000000000001a7dc     0x99f8 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(cp-demangle.o)
+                0x0000000000024028                __cxa_demangle
+                0x00000000000241a8                __gcclibcxx_demangle_callback
+ .text.__cxa_current_exception_type
+                0x00000000000241d4       0x2c /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_type.o)
+                0x00000000000241d4                __cxa_current_exception_type
+ .text          0x0000000000024200       0x64 /usr/arm-linux-gnueabi/lib/libc_nonshared.a(elf-init.oS)
+                0x0000000000024200                __libc_csu_init
+                0x0000000000024260                __libc_csu_fini
+ *(.gnu.warning)
+ *(.glue_7t)
+ .glue_7t       0x0000000000024264        0x0 linker stubs
+ *(.glue_7)
+ .glue_7        0x0000000000024264        0x0 linker stubs
+ *(.vfp11_veneer)
+ .vfp11_veneer  0x0000000000024264        0x0 linker stubs
+ *(.v4_bx)
+ .v4_bx         0x0000000000024264        0x0 linker stubs
+
+.fini           0x0000000000024264        0x8
+ *(SORT(.fini))
+ .fini          0x0000000000024264        0x4 /usr/lib/gcc-cross/arm-linux-gnueabi/5/../../../../arm-linux-gnueabi/lib/../lib/crti.o
+                0x0000000000024264                _fini
+ .fini          0x0000000000024268        0x4 /usr/lib/gcc-cross/arm-linux-gnueabi/5/../../../../arm-linux-gnueabi/lib/../lib/crtn.o
+                [!provide]                        PROVIDE (__etext, .)
+                [!provide]                        PROVIDE (_etext, .)
+                [!provide]                        PROVIDE (etext, .)
+
+.rodata         0x0000000000024270      0xd8c
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.str1.1
+                0x0000000000024270       0xd9 ./src/guidance.o
+                                         0xdc (size before relaxing)
+ .rodata._ZL12POWER_LOOKUP
+                0x0000000000024349        0x7 ./src/util.o
+ .rodata.str1.1
+                0x0000000000024350       0x24 ./src/util.o
+ *fill*         0x0000000000024374        0x4 
+ .rodata._ZL12SPEED_LOOKUP
+                0x0000000000024378       0x38 ./src/util.o
+ .rodata.str1.1
+                0x00000000000243b0        0xf /usr/local/EV3-API/API/libev3api.a(ev3_button.o)
+                                         0x10 (size before relaxing)
+ .rodata.str1.1
+                0x00000000000243bf       0x22 /usr/local/EV3-API/API/libev3api.a(ev3_output.o)
+ .rodata        0x00000000000243e1      0x100 /usr/local/EV3-API/API/libev3api.a(ev3_lcd.o)
+ .rodata.str1.1
+                0x00000000000244e1       0xbd /usr/local/EV3-API/API/libev3api.a(ev3_lcd.o)
+ .rodata.str1.1
+                0x000000000002459e       0x2b /usr/local/EV3-API/API/libev3api.a(ev3sensor.o)
+ *fill*         0x00000000000245c9        0x3 
+ .rodata._ZTSN9__gnu_cxx24__concurrence_lock_errorE
+                0x00000000000245cc       0x27 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(new_handler.o)
+                0x00000000000245cc                typeinfo name for __gnu_cxx::__concurrence_lock_error
+ *fill*         0x00000000000245f3        0x1 
+ .rodata._ZTSN9__gnu_cxx26__concurrence_unlock_errorE
+                0x00000000000245f4       0x29 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(new_handler.o)
+                0x00000000000245f4                typeinfo name for __gnu_cxx::__concurrence_unlock_error
+ *fill*         0x000000000002461d        0x3 
+ .rodata.str1.4
+                0x0000000000024620       0x4a /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(new_handler.o)
+ *fill*         0x000000000002466a        0x2 
+ .rodata._ZTSN10__cxxabiv120__si_class_type_infoE
+                0x000000000002466c       0x25 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(si_class_type_info.o)
+                0x000000000002466c                typeinfo name for __cxxabiv1::__si_class_type_info
+ *fill*         0x0000000000024691        0x3 
+ .rodata._ZTSN10__cxxabiv115__forced_unwindE
+                0x0000000000024694       0x20 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_exception.o)
+                0x0000000000024694                typeinfo name for __cxxabiv1::__forced_unwind
+ .rodata._ZTSN10__cxxabiv119__foreign_exceptionE
+                0x00000000000246b4       0x24 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_exception.o)
+                0x00000000000246b4                typeinfo name for __cxxabiv1::__foreign_exception
+ .rodata.str1.4
+                0x00000000000246d8       0x23 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_exception.o)
+ *fill*         0x00000000000246fb        0x1 
+ .rodata._ZTSSt9exception
+                0x00000000000246fc        0xd /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_exception.o)
+                0x00000000000246fc                typeinfo name for std::exception
+ *fill*         0x0000000000024709        0x3 
+ .rodata._ZTSSt13bad_exception
+                0x000000000002470c       0x12 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_exception.o)
+                0x000000000002470c                typeinfo name for std::bad_exception
+ *fill*         0x000000000002471e        0x2 
+ .rodata.str1.4
+                0x0000000000024720        0xf /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(bad_alloc.o)
+ *fill*         0x000000000002472f        0x1 
+ .rodata._ZTSSt9bad_alloc
+                0x0000000000024730        0xd /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(bad_alloc.o)
+                0x0000000000024730                typeinfo name for std::bad_alloc
+ *fill*         0x000000000002473d        0x3 
+ .rodata._ZTSN10__cxxabiv117__class_type_infoE
+                0x0000000000024740       0x22 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(class_type_info.o)
+                0x0000000000024740                typeinfo name for __cxxabiv1::__class_type_info
+ *fill*         0x0000000000024762        0x2 
+ .rodata._ZTSSt9type_info
+                0x0000000000024764        0xd /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(tinfo.o)
+                0x0000000000024764                typeinfo name for std::type_info
+ *fill*         0x0000000000024771        0x3 
+ .rodata.str1.4
+                0x0000000000024774       0x94 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(vterminate.o)
+ .rodata.str1.4
+                0x0000000000024808      0x7f4 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(cp-demangle.o)
+                                        0x83e (size before relaxing)
+
+.rodata1
+ *(.rodata1)
+
+.ARM.extab      0x0000000000024ffc      0x29c
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+ .ARM.extab.text.startup.main
+                0x0000000000024ffc       0x21 ./src/Project1.o
+ .ARM.extab.text._ZNSt6vectorI8WaypointSaIS0_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS0_S2_EERKS0_
+                0x000000000002501d        0x0 ./src/guidance.o
+ *fill*         0x000000000002501d        0x3 
+ .ARM.extab     0x0000000000025020       0x90 /usr/local/EV3-API/API/libev3api.a(ev3_output.o)
+ .ARM.extab     0x00000000000250b0       0x48 /usr/local/EV3-API/API/libev3api.a(ev3_lcd.o)
+ .ARM.extab.text.__gxx_personality_v0
+                0x00000000000250f8       0x20 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_personality.o)
+ .ARM.extab.text._ZNK9__gnu_cxx24__concurrence_lock_error4whatEv
+                0x0000000000025118        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(new_handler.o)
+ .ARM.extab.text._ZNK9__gnu_cxx26__concurrence_unlock_error4whatEv
+                0x0000000000025118        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(new_handler.o)
+ .ARM.extab.text._ZN9__gnu_cxx24__concurrence_lock_errorD2Ev
+                0x0000000000025118        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(new_handler.o)
+ .ARM.extab.text._ZN9__gnu_cxx26__concurrence_unlock_errorD2Ev
+                0x0000000000025118        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(new_handler.o)
+ .ARM.extab.text._ZN9__gnu_cxx24__concurrence_lock_errorD0Ev
+                0x0000000000025118        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(new_handler.o)
+ .ARM.extab.text._ZN9__gnu_cxx26__concurrence_unlock_errorD0Ev
+                0x0000000000025118        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(new_handler.o)
+ .ARM.extab.text._ZN9__gnu_cxx30__throw_concurrence_lock_errorEv
+                0x0000000000025118        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(new_handler.o)
+ .ARM.extab.text._ZN9__gnu_cxx32__throw_concurrence_unlock_errorEv
+                0x0000000000025118        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(new_handler.o)
+ .ARM.extab.text._ZSt15get_new_handlerv
+                0x0000000000025118       0x20 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(new_handler.o)
+ .ARM.extab.text._ZN10__cxxabiv111__terminateEPFvvE
+                0x0000000000025138       0x18 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_terminate.o)
+ .ARM.extab.text._ZSt13get_terminatev
+                0x0000000000025150       0x24 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_terminate.o)
+ .ARM.extab.text._ZSt14get_unexpectedv
+                0x0000000000025174       0x24 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_terminate.o)
+ .ARM.extab.text.__cxa_call_unexpected
+                0x0000000000025198       0x2c /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_call.o)
+ .ARM.extab.text._ZN12_GLOBAL__N_14pool4freeEPv.constprop.2
+                0x00000000000251c4       0x20 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_alloc.o)
+ .ARM.extab.text._ZN12_GLOBAL__N_14pool8allocateEj.constprop.3
+                0x00000000000251e4       0x20 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_alloc.o)
+ .ARM.extab.text.__cxa_allocate_exception
+                0x0000000000025204       0x1c /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_alloc.o)
+ .ARM.extab.text.__cxa_free_exception
+                0x0000000000025220       0x1c /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_alloc.o)
+ .ARM.extab.text.__cxa_begin_catch
+                0x000000000002523c       0x20 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_catch.o)
+ .ARM.extab.text._ZN9__gnu_cxx27__verbose_terminate_handlerEv
+                0x000000000002525c       0x3c /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(vterminate.o)
+                [!provide]                        PROVIDE (__exidx_start, .)
+
+.ARM.exidx      0x0000000000025298      0x608
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+ .ARM.exidx     0x00000000000252a8        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/../../../../arm-linux-gnueabi/lib/../lib/crt1.o
+                                          0x8 (size before relaxing)
+ .ARM.exidx.text.startup.main
+                0x0000000000025298        0x8 ./src/Project1.o
+ .ARM.exidx.text._ZN15RobotControllerC2ER5Robot
+                0x00000000000252a8        0x8 ./src/control.o
+ .ARM.exidx.text._ZN15RobotController4moveEcc
+                0x00000000000252b0        0x8 ./src/control.o
+ .ARM.exidx.text._ZN15RobotController13command_stateERK10RobotState
+                0x00000000000252b8        0x8 ./src/control.o
+ .ARM.exidx.text._ZN15RobotController4stopEv
+                0x00000000000252c0        0x8 ./src/control.o
+ .ARM.exidx.text._ZN13RobotGuidanceC2ER5Robot
+                0x00000000000252c8        0x8 ./src/guidance.o
+ .ARM.exidx.text._ZN13RobotGuidance7at_goalEv
+                0x00000000000252d0        0x0 ./src/guidance.o
+                                          0x8 (size before relaxing)
+ .ARM.exidx.text._ZN13RobotGuidance10next_stateEv
+                0x00000000000252d0        0x8 ./src/guidance.o
+ .ARM.exidx.text._ZNSt6vectorI8WaypointSaIS0_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS0_S2_EERKS0_
+                0x00000000000252d8        0x8 ./src/guidance.o
+ .ARM.exidx.text._ZN13RobotGuidance12add_waypointEdd
+                0x00000000000252e0        0x8 ./src/guidance.o
+ .ARM.exidx.text._ZN14RobotNavigatorC2ER5Robot
+                0x00000000000252e8        0x8 ./src/navigator.o
+ .ARM.exidx.text._ZN14RobotNavigator15estimate_updateERdS0_
+                0x00000000000252f0        0x8 ./src/navigator.o
+ .ARM.exidx.text._ZN14RobotNavigator14estimate_stateEv
+                0x00000000000252f8        0x8 ./src/navigator.o
+ .ARM.exidx.text._ZN13ControllerPidC2Eddd
+                0x0000000000025300        0x8 ./src/pid.o
+ .ARM.exidx.text._ZN13ControllerPid5applyEi
+                0x0000000000025308        0x0 ./src/pid.o
+                                          0x8 (size before relaxing)
+ .ARM.exidx.text._Z12clear_screenv
+                0x0000000000025308        0x8 ./src/util.o
+ .ARM.exidx.text._Z12lookup_powerd
+                0x0000000000025310        0x8 ./src/util.o
+ .ARM.exidx.text._Z12lookup_speedc
+                0x0000000000025318        0x0 ./src/util.o
+                                          0x8 (size before relaxing)
+ .ARM.exidx.text._Z4normRdS_
+                0x0000000000025318        0x0 ./src/util.o
+                                          0x8 (size before relaxing)
+ .ARM.exidx.text._Z4distdddd
+                0x0000000000025318        0x0 ./src/util.o
+                                          0x8 (size before relaxing)
+ .ARM.exidx.text._Z11clamp_angled
+                0x0000000000025318        0x0 ./src/util.o
+                                          0x8 (size before relaxing)
+ .ARM.exidx.text._Z10angle_diffdd
+                0x0000000000025318        0x0 ./src/util.o
+                                          0x8 (size before relaxing)
+ .ARM.exidx     0x0000000000025318       0x70 /usr/local/EV3-API/API/libev3api.a(ev3_button.o)
+                                         0xe0 (size before relaxing)
+ .ARM.exidx     0x0000000000025388      0x170 /usr/local/EV3-API/API/libev3api.a(ev3_output.o)
+                                        0x200 (size before relaxing)
+ .ARM.exidx     0x00000000000254f8        0x8 /usr/local/EV3-API/API/libev3api.a(ev3.o)
+                                         0x20 (size before relaxing)
+ .ARM.exidx     0x0000000000025500      0x1b8 /usr/local/EV3-API/API/libev3api.a(ev3_lcd.o)
+                                        0x250 (size before relaxing)
+ .ARM.exidx     0x00000000000256b8       0x70 /usr/local/EV3-API/API/libev3api.a(ev3_timer.o)
+                                         0x98 (size before relaxing)
+ .ARM.exidx     0x0000000000025728       0x28 /usr/local/EV3-API/API/libev3api.a(ev3sensor.o)
+                                         0x58 (size before relaxing)
+ .ARM.exidx     0x0000000000025750        0x8 /usr/local/EV3-API/API/libev3api.a(ev3_command.o)
+ .ARM.exidx.text._Znwj
+                0x0000000000025758        0x8 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(new_op.o)
+ .ARM.exidx.text._ZL28read_encoded_value_with_basehjPKhPj
+                0x0000000000025760        0x8 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_personality.o)
+ .ARM.exidx.text._ZL21base_of_encoded_valuehP15_Unwind_Context
+                0x0000000000025768        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_personality.o)
+                                          0x8 (size before relaxing)
+ .ARM.exidx.text._ZL17parse_lsda_headerP15_Unwind_ContextPKhP16lsda_header_info
+                0x0000000000025768        0x8 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_personality.o)
+ .ARM.exidx.text.__gxx_personality_v0
+                0x0000000000025770        0x8 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_personality.o)
+ .ARM.exidx.text._ZNK9__gnu_cxx24__concurrence_lock_error4whatEv
+                0x0000000000025778        0x8 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(new_handler.o)
+ .ARM.exidx.text._ZNK9__gnu_cxx26__concurrence_unlock_error4whatEv
+                0x0000000000025780        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(new_handler.o)
+                                          0x8 (size before relaxing)
+ .ARM.exidx.text._ZN9__gnu_cxx24__concurrence_lock_errorD2Ev
+                0x0000000000025780        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(new_handler.o)
+                                          0x8 (size before relaxing)
+ .ARM.exidx.text._ZN9__gnu_cxx26__concurrence_unlock_errorD2Ev
+                0x0000000000025780        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(new_handler.o)
+                                          0x8 (size before relaxing)
+ .ARM.exidx.text._ZN9__gnu_cxx24__concurrence_lock_errorD0Ev
+                0x0000000000025780        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(new_handler.o)
+                                          0x8 (size before relaxing)
+ .ARM.exidx.text._ZN9__gnu_cxx26__concurrence_unlock_errorD0Ev
+                0x0000000000025780        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(new_handler.o)
+                                          0x8 (size before relaxing)
+ .ARM.exidx.text._ZN9__gnu_cxx30__throw_concurrence_lock_errorEv
+                0x0000000000025780        0x8 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(new_handler.o)
+ .ARM.exidx.text._ZN9__gnu_cxx32__throw_concurrence_unlock_errorEv
+                0x0000000000025788        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(new_handler.o)
+                                          0x8 (size before relaxing)
+ .ARM.exidx.text._ZSt15get_new_handlerv
+                0x0000000000025788        0x8 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(new_handler.o)
+ .ARM.exidx.text.startup._GLOBAL__sub_I_new_handler.cc
+                0x00000000000252a0        0x8 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(new_handler.o)
+ .ARM.exidx.text._ZdlPv
+                0x0000000000025790        0x8 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(del_op.o)
+ .ARM.exidx.text._ZN10__cxxabiv120__si_class_type_infoD2Ev
+                0x0000000000025798        0x8 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(si_class_type_info.o)
+ .ARM.exidx.text._ZN10__cxxabiv120__si_class_type_infoD0Ev
+                0x00000000000257a0        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(si_class_type_info.o)
+                                          0x8 (size before relaxing)
+ .ARM.exidx.text._ZNK10__cxxabiv120__si_class_type_info12__do_dyncastEiNS_17__class_type_info10__sub_kindEPKS1_PKvS4_S6_RNS1_16__dyncast_resultE
+                0x00000000000257a0        0x8 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(si_class_type_info.o)
+ .ARM.exidx.text._ZNK10__cxxabiv120__si_class_type_info20__do_find_public_srcEiPKvPKNS_17__class_type_infoES2_
+                0x00000000000257a8        0x8 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(si_class_type_info.o)
+ .ARM.exidx.text._ZNK10__cxxabiv120__si_class_type_info11__do_upcastEPKNS_17__class_type_infoEPKvRNS1_15__upcast_resultE
+                0x00000000000257b0        0x8 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(si_class_type_info.o)
+ .ARM.exidx.text._ZNSt9exceptionD2Ev
+                0x00000000000257b8        0x8 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_exception.o)
+ .ARM.exidx.text._ZNSt13bad_exceptionD2Ev
+                0x00000000000257c0        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_exception.o)
+                                          0x8 (size before relaxing)
+ .ARM.exidx.text._ZNKSt13bad_exception4whatEv
+                0x00000000000257c0        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_exception.o)
+                                          0x8 (size before relaxing)
+ .ARM.exidx.text._ZNSt13bad_exceptionD0Ev
+                0x00000000000257c0        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_exception.o)
+                                          0x8 (size before relaxing)
+ .ARM.exidx.text._ZNKSt9bad_alloc4whatEv
+                0x00000000000257c0        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(bad_alloc.o)
+                                          0x8 (size before relaxing)
+ .ARM.exidx.text._ZNSt9bad_allocD2Ev
+                0x00000000000257c0        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(bad_alloc.o)
+                                          0x8 (size before relaxing)
+ .ARM.exidx.text._ZNSt9bad_allocD0Ev
+                0x00000000000257c0        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(bad_alloc.o)
+                                          0x8 (size before relaxing)
+ .ARM.exidx.text._ZL23__gxx_exception_cleanup19_Unwind_Reason_CodeP21_Unwind_Control_Block
+                0x00000000000257c0        0x8 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_throw.o)
+ .ARM.exidx.text.__cxa_throw
+                0x00000000000257c8        0x8 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_throw.o)
+ .ARM.exidx.text.__cxa_rethrow
+                0x00000000000257d0        0x8 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_throw.o)
+ .ARM.exidx.text._ZN10__cxxabiv111__terminateEPFvvE
+                0x00000000000257d8        0x8 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_terminate.o)
+ .ARM.exidx.text._ZSt13get_terminatev
+                0x00000000000257e0        0x8 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_terminate.o)
+ .ARM.exidx.text._ZSt9terminatev
+                0x00000000000257e8        0x8 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_terminate.o)
+ .ARM.exidx.text._ZN10__cxxabiv112__unexpectedEPFvvE
+                0x00000000000257f0        0x8 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_terminate.o)
+ .ARM.exidx.text._ZSt14get_unexpectedv
+                0x00000000000257f8        0x8 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_terminate.o)
+ .ARM.exidx.text._ZSt10unexpectedv
+                0x0000000000025800        0x8 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_terminate.o)
+ .ARM.exidx.text.startup._GLOBAL__sub_I_eh_terminate.cc
+                0x00000000000252a8        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_terminate.o)
+                                          0x8 (size before relaxing)
+ .ARM.exidx.text.__cxa_get_globals_fast
+                0x0000000000025808        0x8 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_globals.o)
+ .ARM.exidx.text.__cxa_get_globals
+                0x0000000000025810        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_globals.o)
+                                          0x8 (size before relaxing)
+ .ARM.exidx.text.__cxa_call_terminate
+                0x0000000000025810        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_call.o)
+                                          0x8 (size before relaxing)
+ .ARM.exidx.text.__cxa_call_unexpected
+                0x0000000000025810       0x10 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_call.o)
+                                          0x8 (size before relaxing)
+ .ARM.exidx.text.__cxa_type_match
+                0x0000000000025820        0x8 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_arm.o)
+ .ARM.exidx.text.__cxa_begin_cleanup
+                0x0000000000025828        0x8 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_arm.o)
+ .ARM.exidx.text.__gnu_end_cleanup
+                0x0000000000025830        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_arm.o)
+                                          0x8 (size before relaxing)
+ .ARM.exidx.text._ZNK10__cxxabiv117__class_type_info11__do_upcastEPKS0_PPv
+                0x0000000000025830        0x8 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(class_type_info.o)
+ .ARM.exidx.text._ZNK10__cxxabiv117__class_type_info20__do_find_public_srcEiPKvPKS0_S2_
+                0x0000000000025838        0x8 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(class_type_info.o)
+ .ARM.exidx.text._ZN10__cxxabiv117__class_type_infoD2Ev
+                0x0000000000025840        0x8 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(class_type_info.o)
+ .ARM.exidx.text._ZN10__cxxabiv117__class_type_infoD0Ev
+                0x0000000000025848        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(class_type_info.o)
+                                          0x8 (size before relaxing)
+ .ARM.exidx.text._ZNK10__cxxabiv117__class_type_info11__do_upcastEPKS0_PKvRNS0_15__upcast_resultE
+                0x0000000000025848        0x8 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(class_type_info.o)
+ .ARM.exidx.text._ZNK10__cxxabiv117__class_type_info12__do_dyncastEiNS0_10__sub_kindEPKS0_PKvS3_S5_RNS0_16__dyncast_resultE
+                0x0000000000025850        0x8 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(class_type_info.o)
+ .ARM.exidx.text._ZNK10__cxxabiv117__class_type_info10__do_catchEPKSt9type_infoPPvj
+                0x0000000000025858        0x8 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(class_type_info.o)
+ .ARM.exidx.text._ZN12_GLOBAL__N_14pool4freeEPv.constprop.2
+                0x0000000000025860        0x8 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_alloc.o)
+ .ARM.exidx.text._ZN12_GLOBAL__N_14pool8allocateEj.constprop.3
+                0x0000000000025868        0x8 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_alloc.o)
+ .ARM.exidx.text.__cxa_allocate_exception
+                0x0000000000025870        0x8 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_alloc.o)
+ .ARM.exidx.text.__cxa_free_exception
+                0x0000000000025878        0x8 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_alloc.o)
+ .ARM.exidx.text.startup._GLOBAL__sub_I_eh_alloc.cc
+                0x00000000000252a8        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_alloc.o)
+                                          0x8 (size before relaxing)
+ .ARM.exidx.text.__cxa_begin_catch
+                0x0000000000025880        0x8 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_catch.o)
+ .ARM.exidx.text.__cxa_end_catch
+                0x0000000000025888        0x8 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_catch.o)
+ .ARM.exidx.text._ZNSt9type_infoD2Ev
+                0x0000000000025890        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(tinfo.o)
+                                          0x8 (size before relaxing)
+ .ARM.exidx.text._ZNKSt9type_info15__is_function_pEv
+                0x0000000000025890        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(tinfo.o)
+                                          0x8 (size before relaxing)
+ .ARM.exidx.text._ZNKSt9type_infoeqERKS_
+                0x0000000000025890        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(tinfo.o)
+                                          0x8 (size before relaxing)
+ .ARM.exidx.text._ZN9__gnu_cxx27__verbose_terminate_handlerEv
+                0x0000000000025890       0x10 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(vterminate.o)
+                                          0x8 (size before relaxing)
+ .ARM.exidx.text.__cxa_current_exception_type
+                0x00000000000258a0        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_type.o)
+                                          0x8 (size before relaxing)
+                [!provide]                        PROVIDE (__exidx_end, .)
+
+.eh_frame_hdr
+ *(.eh_frame_hdr)
+ *(.eh_frame_entry .eh_frame_entry.*)
+
+.eh_frame       0x00000000000258a0        0x4
+ *(.eh_frame)
+ .eh_frame      0x00000000000258a0        0x4 /usr/lib/gcc-cross/arm-linux-gnueabi/5/crtend.o
+ *(.eh_frame.*)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.gnu_extab
+ *(.gnu_extab*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+                0x00000000000366a0                . = DATA_SEGMENT_ALIGN (0x10000, 0x1000)
+
+.eh_frame
+ *(.eh_frame)
+ *(.eh_frame.*)
+
+.gnu_extab
+ *(.gnu_extab)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.tdata
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss           0x00000000000366a0        0xc
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ .tbss._ZZN12_GLOBAL__N_110get_globalEvE6global
+                0x00000000000366a0        0xc /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_globals.o)
+ *(.tcommon)
+
+.preinit_array  0x00000000000366a0        0x0
+                [!provide]                        PROVIDE (__preinit_array_start, .)
+ *(.preinit_array)
+                [!provide]                        PROVIDE (__preinit_array_end, .)
+
+.init_array     0x00000000000366a0       0x10
+                0x00000000000366a0                PROVIDE (__init_array_start, .)
+ *(SORT(.init_array.*) SORT(.ctors.*))
+ *(.init_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .ctors)
+ .init_array    0x00000000000366a0        0x4 /usr/lib/gcc-cross/arm-linux-gnueabi/5/crtbegin.o
+ .init_array    0x00000000000366a4        0x4 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(new_handler.o)
+ .init_array    0x00000000000366a8        0x4 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_terminate.o)
+ .init_array    0x00000000000366ac        0x4 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_alloc.o)
+                0x00000000000366b0                PROVIDE (__init_array_end, .)
+
+.fini_array     0x00000000000366b0        0x4
+                [!provide]                        PROVIDE (__fini_array_start, .)
+ *(SORT(.fini_array.*) SORT(.dtors.*))
+ *(.fini_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .dtors)
+ .fini_array    0x00000000000366b0        0x4 /usr/lib/gcc-cross/arm-linux-gnueabi/5/crtbegin.o
+                [!provide]                        PROVIDE (__fini_array_end, .)
+
+.ctors
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+
+.dtors
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+
+.jcr            0x00000000000366b4        0x4
+ *(.jcr)
+ .jcr           0x00000000000366b4        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/crtbegin.o
+ .jcr           0x00000000000366b4        0x4 /usr/lib/gcc-cross/arm-linux-gnueabi/5/crtend.o
+
+.data.rel.ro    0x00000000000366b8      0x848
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ .data.rel.ro.local
+                0x00000000000366b8      0x738 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(cp-demangle.o)
+ *(.data.rel.ro .data.rel.ro.* .gnu.linkonce.d.rel.ro.*)
+ .data.rel.ro._ZTIN9__gnu_cxx24__concurrence_lock_errorE
+                0x0000000000036df0        0xc /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(new_handler.o)
+                0x0000000000036df0                typeinfo for __gnu_cxx::__concurrence_lock_error
+ .data.rel.ro._ZTIN9__gnu_cxx26__concurrence_unlock_errorE
+                0x0000000000036dfc        0xc /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(new_handler.o)
+                0x0000000000036dfc                typeinfo for __gnu_cxx::__concurrence_unlock_error
+ .data.rel.ro._ZTVN9__gnu_cxx24__concurrence_lock_errorE
+                0x0000000000036e08       0x14 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(new_handler.o)
+                0x0000000000036e08                vtable for __gnu_cxx::__concurrence_lock_error
+ .data.rel.ro._ZTVN9__gnu_cxx26__concurrence_unlock_errorE
+                0x0000000000036e1c       0x14 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(new_handler.o)
+                0x0000000000036e1c                vtable for __gnu_cxx::__concurrence_unlock_error
+ .data.rel.ro._ZTVN10__cxxabiv120__si_class_type_infoE
+                0x0000000000036e30       0x2c /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(si_class_type_info.o)
+                0x0000000000036e30                vtable for __cxxabiv1::__si_class_type_info
+ .data.rel.ro._ZTIN10__cxxabiv120__si_class_type_infoE
+                0x0000000000036e5c        0xc /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(si_class_type_info.o)
+                0x0000000000036e5c                typeinfo for __cxxabiv1::__si_class_type_info
+ .data.rel.ro._ZTIN10__cxxabiv115__forced_unwindE
+                0x0000000000036e68        0x8 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_exception.o)
+                0x0000000000036e68                typeinfo for __cxxabiv1::__forced_unwind
+ .data.rel.ro._ZTISt9exception
+                0x0000000000036e70        0x8 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_exception.o)
+                0x0000000000036e70                typeinfo for std::exception
+ .data.rel.ro._ZTVSt13bad_exception
+                0x0000000000036e78       0x14 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_exception.o)
+                0x0000000000036e78                vtable for std::bad_exception
+ .data.rel.ro._ZTISt13bad_exception
+                0x0000000000036e8c        0xc /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_exception.o)
+                0x0000000000036e8c                typeinfo for std::bad_exception
+ .data.rel.ro._ZTIN10__cxxabiv119__foreign_exceptionE
+                0x0000000000036e98        0x8 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_exception.o)
+                0x0000000000036e98                typeinfo for __cxxabiv1::__foreign_exception
+ .data.rel.ro._ZTISt9bad_alloc
+                0x0000000000036ea0        0xc /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(bad_alloc.o)
+                0x0000000000036ea0                typeinfo for std::bad_alloc
+ .data.rel.ro._ZTVSt9bad_alloc
+                0x0000000000036eac       0x14 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(bad_alloc.o)
+                0x0000000000036eac                vtable for std::bad_alloc
+ .data.rel.ro._ZTVN10__cxxabiv117__class_type_infoE
+                0x0000000000036ec0       0x2c /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(class_type_info.o)
+                0x0000000000036ec0                vtable for __cxxabiv1::__class_type_info
+ .data.rel.ro._ZTIN10__cxxabiv117__class_type_infoE
+                0x0000000000036eec        0xc /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(class_type_info.o)
+                0x0000000000036eec                typeinfo for __cxxabiv1::__class_type_info
+ .data.rel.ro._ZTISt9type_info
+                0x0000000000036ef8        0x8 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(tinfo.o)
+                0x0000000000036ef8                typeinfo for std::type_info
+
+.dynamic        0x0000000000036f00      0x100
+ *(.dynamic)
+ .dynamic       0x0000000000036f00      0x100 /usr/lib/gcc-cross/arm-linux-gnueabi/5/../../../../arm-linux-gnueabi/lib/../lib/crt1.o
+                0x0000000000036f00                _DYNAMIC
+                0x0000000000037000                . = DATA_SEGMENT_RELRO_END (., 0x0)
+
+.got            0x0000000000037000      0x1ac
+ *(.got.plt)
+ .got.plt       0x0000000000037000      0x148 /usr/lib/gcc-cross/arm-linux-gnueabi/5/../../../../arm-linux-gnueabi/lib/../lib/crt1.o
+                0x0000000000037000                _GLOBAL_OFFSET_TABLE_
+ *(.igot.plt)
+ .igot.plt      0x0000000000037148        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/../../../../arm-linux-gnueabi/lib/../lib/crt1.o
+ *(.got)
+ .got           0x0000000000037148       0x64 /usr/lib/gcc-cross/arm-linux-gnueabi/5/../../../../arm-linux-gnueabi/lib/../lib/crt1.o
+ *(.igot)
+
+.data           0x00000000000371ac     0x2538
+                [!provide]                        PROVIDE (__data_start, .)
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x00000000000371ac     0x2530 /usr/local/EV3-API/API/libev3api.a(ev3_lcd.o)
+                0x00000000000371ac                FontInfo
+                0x00000000000371dc                IconInfo
+                0x0000000000037218                UnPixelTab
+                0x0000000000037318                PixelTab
+                0x0000000000037320                Masks
+ .data.rel._ZN10__cxxabiv119__terminate_handlerE
+                0x00000000000396dc        0x4 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_term_handler.o)
+                0x00000000000396dc                __cxxabiv1::__terminate_handler
+ .data.rel._ZN10__cxxabiv120__unexpected_handlerE
+                0x00000000000396e0        0x4 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_unex_handler.o)
+                0x00000000000396e0                __cxxabiv1::__unexpected_handler
+
+.tm_clone_table
+                0x00000000000396e4        0x0
+ .tm_clone_table
+                0x00000000000396e4        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/crtbegin.o
+ .tm_clone_table
+                0x00000000000396e4        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/5/crtend.o
+
+.data1
+ *(.data1)
+                0x00000000000396e4                _edata = .
+                [!provide]                        PROVIDE (edata, .)
+                0x00000000000396e4                . = .
+                0x00000000000396e4                __bss_start = .
+                0x00000000000396e4                __bss_start__ = .
+
+.bss            0x00000000000396e8     0x2b9c
+ *(.dynbss)
+ .dynbss        0x00000000000396e8        0x4 /usr/lib/gcc-cross/arm-linux-gnueabi/5/../../../../arm-linux-gnueabi/lib/../lib/crt1.o
+                0x00000000000396e8                __stack_chk_guard@@GLIBC_2.4
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x00000000000396ec        0x1 /usr/lib/gcc-cross/arm-linux-gnueabi/5/crtbegin.o
+ *fill*         0x00000000000396ed        0x1 
+ .bss           0x00000000000396ee        0x6 /usr/local/EV3-API/API/libev3api.a(ev3_lcd.o)
+ *fill*         0x00000000000396f4        0x4 
+ .bss           0x00000000000396f8       0xe0 /usr/local/EV3-API/API/libev3api.a(ev3_timer.o)
+ .bss           0x00000000000397d8       0x30 /usr/local/EV3-API/API/libev3api.a(ev3sensor.o)
+                0x00000000000397d8                g_uartSensors
+                0x00000000000397dc                g_iicSensors
+                0x00000000000397e0                g_analogSensors
+                0x00000000000397fc                g_uartFile
+                0x0000000000039800                g_iicFile
+                0x0000000000039804                g_analogFile
+ .bss._ZN12_GLOBAL__N_113__new_handlerE
+                0x0000000000039808        0x4 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(new_handler.o)
+ .bss._ZN12_GLOBAL__N_12mxE
+                0x000000000003980c       0x18 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(new_handler.o)
+ .bss._ZN12_GLOBAL__N_12mxE
+                0x0000000000039824       0x18 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_terminate.o)
+ .bss._ZN12_GLOBAL__N_114emergency_poolE
+                0x000000000003983c       0x24 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_alloc.o)
+ .bss._ZZN9__gnu_cxx27__verbose_terminate_handlerEvE11terminating
+                0x0000000000039860        0x1 /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(vterminate.o)
+ *(COMMON)
+ *fill*         0x0000000000039861        0x3 
+ COMMON         0x0000000000039864       0x1e /usr/local/EV3-API/API/libev3api.a(ev3_button.o)
+                0x0000000000039864                ButtonLedInstance
+                0x000000000003987c                HwVers
+ *fill*         0x0000000000039882        0x2 
+ COMMON         0x0000000000039884       0x48 /usr/local/EV3-API/API/libev3api.a(ev3_output.o)
+                0x0000000000039884                OutputInstance
+ COMMON         0x00000000000398cc     0x2998 /usr/local/EV3-API/API/libev3api.a(ev3_lcd.o)
+                0x00000000000398cc                hwBuffer
+                0x000000000003b6cc                LCDInstance
+ COMMON         0x000000000003c264       0x20 /usr/local/EV3-API/API/libev3api.a(ev3sensor.o)
+                0x000000000003c264                sensor_setup_NAME
+                0x000000000003c274                ir_sensor_channel
+                0x000000000003c284                . = ALIGN ((. != 0x0)?0x4:0x1)
+                0x000000000003c284                _bss_end__ = .
+                0x000000000003c284                __bss_end__ = .
+                0x000000000003c284                . = ALIGN (0x4)
+                0x000000000003c284                . = SEGMENT_START ("ldata-segment", .)
+                0x000000000003c284                . = ALIGN (0x4)
+                0x000000000003c284                __end__ = .
+                0x000000000003c284                _end = .
+                [!provide]                        PROVIDE (end, .)
+                0x000000000003c284                . = DATA_SEGMENT_END (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000      0x168
+ *(.comment)
+ .comment       0x0000000000000000       0x3b /usr/lib/gcc-cross/arm-linux-gnueabi/5/crtbegin.o
+                                         0x3c (size before relaxing)
+ .comment       0x000000000000003b       0x3c ./src/Project1.o
+ .comment       0x000000000000003b       0x3c ./src/control.o
+ .comment       0x000000000000003b       0x3c ./src/guidance.o
+ .comment       0x000000000000003b       0x3c ./src/navigator.o
+ .comment       0x000000000000003b       0x3c ./src/pid.o
+ .comment       0x000000000000003b       0x3c ./src/util.o
+ .comment       0x000000000000003b       0x2b /usr/local/EV3-API/API/libev3api.a(ev3_button.o)
+ .comment       0x0000000000000066       0x2b /usr/local/EV3-API/API/libev3api.a(ev3_output.o)
+ .comment       0x0000000000000091       0x2b /usr/local/EV3-API/API/libev3api.a(ev3.o)
+ .comment       0x00000000000000bc       0x2b /usr/local/EV3-API/API/libev3api.a(ev3_lcd.o)
+ .comment       0x00000000000000e7       0x2b /usr/local/EV3-API/API/libev3api.a(ev3_timer.o)
+ .comment       0x0000000000000112       0x2b /usr/local/EV3-API/API/libev3api.a(ev3sensor.o)
+ .comment       0x000000000000013d       0x2b /usr/local/EV3-API/API/libev3api.a(ev3_command.o)
+ .comment       0x0000000000000168       0x3c /usr/lib/gcc-cross/arm-linux-gnueabi/5/crtend.o
+
+.ARM.attributes
+                0x0000000000000000       0x2a
+ .ARM.attributes
+                0x0000000000000000       0x2a /usr/lib/gcc-cross/arm-linux-gnueabi/5/../../../../arm-linux-gnueabi/lib/../lib/crt1.o
+ .ARM.attributes
+                0x000000000000002a       0x1e /usr/lib/gcc-cross/arm-linux-gnueabi/5/../../../../arm-linux-gnueabi/lib/../lib/crti.o
+ .ARM.attributes
+                0x0000000000000048       0x2a /usr/lib/gcc-cross/arm-linux-gnueabi/5/crtbegin.o
+ .ARM.attributes
+                0x0000000000000072       0x2c ./src/Project1.o
+ .ARM.attributes
+                0x000000000000009e       0x2c ./src/control.o
+ .ARM.attributes
+                0x00000000000000ca       0x2c ./src/guidance.o
+ .ARM.attributes
+                0x00000000000000f6       0x2c ./src/navigator.o
+ .ARM.attributes
+                0x0000000000000122       0x2c ./src/pid.o
+ .ARM.attributes
+                0x000000000000014e       0x2c ./src/util.o
+ .ARM.attributes
+                0x000000000000017a       0x31 /usr/local/EV3-API/API/libev3api.a(ev3_button.o)
+ .ARM.attributes
+                0x00000000000001ab       0x31 /usr/local/EV3-API/API/libev3api.a(ev3_output.o)
+ .ARM.attributes
+                0x00000000000001dc       0x31 /usr/local/EV3-API/API/libev3api.a(ev3.o)
+ .ARM.attributes
+                0x000000000000020d       0x31 /usr/local/EV3-API/API/libev3api.a(ev3_lcd.o)
+ .ARM.attributes
+                0x000000000000023e       0x31 /usr/local/EV3-API/API/libev3api.a(ev3_timer.o)
+ .ARM.attributes
+                0x000000000000026f       0x31 /usr/local/EV3-API/API/libev3api.a(ev3sensor.o)
+ .ARM.attributes
+                0x00000000000002a0       0x31 /usr/local/EV3-API/API/libev3api.a(ev3_command.o)
+ .ARM.attributes
+                0x00000000000002d1       0x2a /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(new_op.o)
+ .ARM.attributes
+                0x00000000000002fb       0x2a /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(new_handler.o)
+ .ARM.attributes
+                0x0000000000000325       0x2a /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(del_op.o)
+ .ARM.attributes
+                0x000000000000034f       0x2a /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(si_class_type_info.o)
+ .ARM.attributes
+                0x0000000000000379       0x2a /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_exception.o)
+ .ARM.attributes
+                0x00000000000003a3       0x2a /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(bad_alloc.o)
+ .ARM.attributes
+                0x00000000000003cd       0x2a /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_throw.o)
+ .ARM.attributes
+                0x00000000000003f7       0x2a /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_terminate.o)
+ .ARM.attributes
+                0x0000000000000421       0x2a /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_globals.o)
+ .ARM.attributes
+                0x000000000000044b       0x2a /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_call.o)
+ .ARM.attributes
+                0x0000000000000475       0x2a /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_arm.o)
+ .ARM.attributes
+                0x000000000000049f       0x2a /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_term_handler.o)
+ .ARM.attributes
+                0x00000000000004c9       0x2a /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_unex_handler.o)
+ .ARM.attributes
+                0x00000000000004f3       0x2a /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(class_type_info.o)
+ .ARM.attributes
+                0x000000000000051d       0x2a /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_alloc.o)
+ .ARM.attributes
+                0x0000000000000547       0x2a /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_catch.o)
+ .ARM.attributes
+                0x0000000000000571       0x2a /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(tinfo.o)
+ .ARM.attributes
+                0x000000000000059b       0x2a /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(vterminate.o)
+ .ARM.attributes
+                0x00000000000005c5       0x2a /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(cp-demangle.o)
+ .ARM.attributes
+                0x00000000000005ef       0x2a /usr/lib/gcc-cross/arm-linux-gnueabi/5/libstdc++.a(eh_type.o)
+ .ARM.attributes
+                0x0000000000000619       0x2c /usr/arm-linux-gnueabi/lib/libc_nonshared.a(elf-init.oS)
+ .ARM.attributes
+                0x0000000000000645       0x2a /usr/lib/gcc-cross/arm-linux-gnueabi/5/crtend.o
+ .ARM.attributes
+                0x000000000000066f       0x1e /usr/lib/gcc-cross/arm-linux-gnueabi/5/../../../../arm-linux-gnueabi/lib/../lib/crtn.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info
+ *(.debug_info .gnu.linkonce.wi.*)
+
+.debug_abbrev
+ *(.debug_abbrev)
+
+.debug_line
+ *(.debug_line .debug_line.* .debug_line_end)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str
+ *(.debug_str)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_macro
+ *(.debug_macro)
+
+.gnu.attributes
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+OUTPUT(Project1.elf elf32-littlearm)
