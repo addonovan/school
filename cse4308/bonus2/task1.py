@@ -42,27 +42,29 @@ hypotheses = [
 ]
 
 seq = sys.argv[1]
-print(f"Observation sequence Q: {seq}")
-print(f"Length of Q: {len(seq)}\n")
+with open("result.txt", "w+") as f:
+    f.write(f"Observation sequence Q: {seq}\n")
+    f.write(f"Length of Q: {len(seq)}\n")
+    f.write("\n")
 
-for i in range(0, len(seq)):
-    observations = to_indices(seq[0 : i + 1]) # upper bound is exclusive
+    for i in range(0, len(seq)):
+        observations = to_indices(seq[0 : i + 1]) # upper bound is exclusive
 
-    print(f"After Observation {i + 1} = {seq[i]}:")
-    print()
+        f.write(f"After Observation {i + 1} = {seq[i]}:\n")
+        f.write("\n")
 
-    cherry_prob = 0
-    lime_prob = 0
+        cherry_prob = 0
+        lime_prob = 0
 
-    for hypothesis in hypotheses:
-        name = hypothesis[3]
-        prob = posterior(hypothesis, observations)
-        print(f"P({name} | Q) = {prob:7.5f}")
+        for hypothesis in hypotheses:
+            name = hypothesis[3]
+            prob = posterior(hypothesis, observations)
+            f.write(f"P({name} | Q) = {prob:7.5f}\n")
 
-        cherry_prob += prob * hypothesis[CHERRY]
-        lime_prob += prob * hypothesis[LIME]
+            cherry_prob += prob * hypothesis[CHERRY]
+            lime_prob += prob * hypothesis[LIME]
 
-    print()
-    print(f"Probability that the next candy we pick will be C, given Q: {cherry_prob:7.5f}")
-    print(f"Probability that the next candy we pick will be L, given Q: {lime_prob:7.5f}")
-    print()
+        f.write("\n")
+        f.write(f"Probability that the next candy we pick will be C, given Q: {cherry_prob:7.5f}\n")
+        f.write(f"Probability that the next candy we pick will be L, given Q: {lime_prob:7.5f}\n")
+        f.write("\n")
