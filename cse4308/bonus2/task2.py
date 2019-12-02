@@ -1,53 +1,91 @@
+from os import sys
 import numpy as np
 
-def count(predicate, values):
-    return len(list(filter(predicate, values)))
+class Node():
+    def __init__(self, id):
+        self.__id = id
 
-def percentage(predicate, values):
-    return count(predicate, values) / len(values)
+    @property
+    def id(self):
+        return self.__id
 
-def c(text, val):
-    return f"~{text}" if val == 0 else text
+    def probability(self, situation):
+        raise "Unimplemented"
 
-def main():
-    training = read_input("training.txt")
-    baseball_game_on = 0
-    george_watches_tv = 1
-    out_of_cat_food = 2
-    george_feeds_cat = 3
+class MarginalNode(Node):
+    def __init__(self, id, probability):
+        super().__init__(id)
+        self.__probability = probability
 
-    # first, calculate the marginal probabilities
-    prob_game_on = percentage(lambda row: row[baseball_game_on] == 1, training)
-    print(f"P(baseball_game_on_TV)  = {prob_game_on:6.4}")
+    def probability(self, situation):
+        if super().id in situation and situation[super().id]:
+            return self.__probability
+        else:
+            return 1 - self.__probability
 
-    prob_no_food = percentage(lambda row: row[out_of_cat_food] == 1, training)
-    print(f"P(out_of_cat_food)  = {prob_no_food:6.4}")
+class ConditionalNode(Node):
+    def __init__(self, id, parents, probability_table):
+        super().__init__(id)
+        self.__parents = parents
+        self.__probability_table = probability_table
 
-    # now, the conditional probability of watching TV
-    prob_watches_tv = {}
-    for game_on in [0, 1]:
-        p = percentage(
-            lambda row: row[baseball_game_on] == game_on and row[george_watches_tv] == 1,
-            training
-        ) / prob_game_on
-        print(f"P(George_watches_TV | {c('baseball_game_on_TV', game_on)} = {p:6.4}")
-        prob_watches_tv[game_on] = p
+    def probability(self, situation):
+        lookup = tuple(map(
+            lambda parent: parent.id in situation and situation[parent.id],
+            self.__parents
+        ))
+        base_probability = self.__probability_table = lookup
+        # should something else happen here?
+        return base_probability
 
-    # finally, the probabilities of george feeding the cat
-    prob_feeds_cat = {}
-    for watches_tv in [0, 1]:
-        for no_food in [0, 1]:
-            p = percentage(
-                lambda row: row[george_watches_tv] == watches_tv and row[out_of_cat_food] == no_food and row[george_feeds_cat],
-                training
-            ) / percentage(
-                lambda row: row[george_watches_tv] == watches_tv and row[out_of_cat_food] == no_food,
-                training
-            )
+# node definitions
 
-            print(f"P(George_feeds_cat | {c('George_watches_TV', watches_tv)}, {c('out_of_cat_food', no_food)}) = {p:6.4}")
-            prob_feeds_cat[(watches_tv, no_food)] = p
+burglary = MarginalNode("B", 0.001)
+earthquake = MarginalNode("E", 0.002)
 
+alarm = ConditionalNode("A", [burglary, earthquake], {
+    (True, True):   0.950,
+    (True, False):  0.940,
+    (False, True):  0.290,
+    (False, False): 0.001
+})
 
-read_input = lambda file: np.loadtxt(file)
-main()
+john_calls = ConditionalNode("J", (alarm), {
+    (True): 0.90,
+    (False): 0.05
+})
+mary_calls = ConditionalNode("M", (alarm), {
+    (True): 0.70,
+    (False): 0.01
+})
+
+node_list = [burglary, earthquake, alarm, john_calls, mary_calls] 
+node_lookup = {
+    node.id: node
+        for node in node_list
+}
+
+def parse_variable(map, arg):
+    map[node_lookup[arg[0]]] = arg[1] == "t"
+
+def parse_args():
+    knowns = {
+        node.id: False
+            for node in node_list
+    } # type => boolean
+    givens = {
+        node.id: False
+            for node in node_list
+    } # type => boolean
+
+    is_given = False
+    for arg in sys.argv[1 : ]:
+        if arg == "given":
+            is_given = True
+            continue
+
+        parse_variable(givens if is_given else knowns, arg)
+
+    return (knowns, givens)
+
+print(parse_args())
