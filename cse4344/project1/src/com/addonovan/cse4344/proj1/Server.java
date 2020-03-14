@@ -18,15 +18,8 @@ public class Server {
         socket = new ServerSocket(port);
     }
 
-    private void handleConnection(Socket client) throws IOException {
-        BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(client.getOutputStream()));
-
-        bw.write("HTTP/1.1 200 OK\n");
-        bw.write("Content-Length: 13\n");
-        bw.write("Content-Type: text/plain; charset=utf-8\n");
-        bw.write("\n");
-        bw.write("Hello world!\n");
-        bw.flush();
+    private void handleConnection(HttpRequest request) throws IOException {
+        Logger.info("%s %s", request.getMethod(), request.getPath());
     }
 
     public void start(int workPoolSize) {
@@ -90,16 +83,15 @@ public class Server {
                             client.getPort()
                     );
 
-                    handleConnection(client);
+                    HttpRequest request = HttpRequest.from(client.getInputStream());
+                    handleConnection(request);
                     client.close();
 
                 } catch (Exception e) {
+                    e.printStackTrace();
                     Logger.error("Uncaught exception:\n", Util.getStackTrace(e));
-                    break;
                 }
             }
-
-            Logger.info("Thread exited");
         }
 
     }
