@@ -22,25 +22,13 @@ public class Server {
         socket = new ServerSocket(port);
     }
 
-    private void handleConnection(HttpRequest request, OutputStream os) throws IOException {
+    private HttpResponse handleConnection(HttpRequest request) {
         Logger.info("%s %s", request.getMethod(), request.getPath());
 
         HttpResponse response = new HttpResponse();
+        response.setContentPath(Paths.get(".", request.getPath()));
 
-        // get the file from the local path
-        Path path = Paths.get(".", request.getPath());
-
-        if (!Files.isRegularFile(path)) {
-            response.setStatus(HttpResponse.Status.NotFound);
-            response.writeTo(os);
-            return;
-        }
-
-        response.setContentLength(Files.size(path));
-        response.writeTo(os);
-
-        // finish off the method by sending teh body of the contents
-        Files.copy(path, os);
+        return response;
     }
 
     public void start(int workPoolSize) {
@@ -105,9 +93,10 @@ public class Server {
                     );
 
                     HttpRequest request = HttpRequest.from(client.getInputStream());
-                    handleConnection(request, client.getOutputStream());
+                    HttpResponse response = handleConnection(request);
 
-                    client.getOutputStream().flush();
+                    response.writeTo(client.getOutputStream());
+
                     client.close();
                 } catch (Exception e) {
                     e.printStackTrace();

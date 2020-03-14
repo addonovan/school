@@ -4,6 +4,10 @@ import java.io.BufferedWriter;
 import java.io.IOException;
 import java.io.OutputStream;
 import java.io.OutputStreamWriter;
+import java.nio.file.Files;
+import java.nio.file.NoSuchFileException;
+import java.nio.file.Path;
+import java.util.Optional;
 
 public final class HttpResponse {
 
@@ -24,14 +28,28 @@ public final class HttpResponse {
 
     private Status status = Status.Ok;
 
-    private long contentLength = 0;
+    private Path contentPath = null;
+
+    private long contentSize = 0;
+
+    private String contentType = "text/plain";
 
     public void setStatus(Status status) {
         this.status = status;
     }
 
-    public void setContentLength(long contentLength) {
-        this.contentLength = contentLength;
+    public void setContentPath(Path contentPath) {
+        this.contentPath = contentPath;
+        try {
+            contentSize = Files.size(contentPath);
+
+            // try to detect the content type
+            contentType = Optional.ofNullable(Files.probeContentType(contentPath))
+                    .orElse(contentType);
+        } catch (Exception e) {
+            contentSize = 0;
+            this.status = Status.NotFound;
+        }
     }
 
     public void writeTo(OutputStream os) throws IOException {
@@ -44,14 +62,21 @@ public final class HttpResponse {
         bw.write("\r\n");
 
         bw.write("Content-Length: ");
-        bw.write(Long.toString(contentLength));
+        bw.write(Long.toString(contentSize));
         bw.write("\r\n");
 
-        bw.write("Content-Type: text/plain; charset=utf-8\r\n");
+        bw.write("Content-Type: ");
+        bw.write(contentType);
+        bw.write(";  charset=utf-8\r\n");
 
+        // finish the headers
         bw.write("\r\n");
-
-        // write the headers, then the rest of the contents
         bw.flush();
+
+        if (contentSize > 0) {
+            Files.copy(contentPath, os);
+        }
+
+        os.flush();
     }
 }
