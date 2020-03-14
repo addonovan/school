@@ -1,13 +1,8 @@
 package com.addonovan.cse4344.proj1;
 
-import java.io.BufferedWriter;
 import java.io.IOException;
-import java.io.OutputStream;
-import java.io.OutputStreamWriter;
 import java.net.ServerSocket;
 import java.net.Socket;
-import java.nio.file.Files;
-import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.LinkedList;
 import java.util.List;
@@ -99,8 +94,7 @@ public class Server {
 
                     client.close();
                 } catch (Exception e) {
-                    e.printStackTrace();
-                    Logger.error("Uncaught exception:\n", Util.getStackTrace(e));
+                    Logger.error("Uncaught exception:\n%s", Util.getStackTrace(e));
                 }
             }
         }
