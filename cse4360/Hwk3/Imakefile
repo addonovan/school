@@ -1,0 +1,20 @@
+LOCAL_LIBRARIES = -lm -Llib -lLearn $(XAWLIB) $(XMULIB) $(XTOOLLIB) $(XLIB) \
+	          $(XEXTLIB) $(MATHLIB) 
+
+EXTRA_LIBRARIES = -lm -Llib -lLearn 
+
+CC = gcc -fPIC
+
+
+CDEBUGFLAGS = -g -ggdb
+
+PROG =	PoleBalance
+
+SRCS = Q_learn.c	
+
+INCL = 
+
+OBJS = $(SRCS:.c=.o)
+
+ComplexProgramTarget($(PROG))
+
