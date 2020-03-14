@@ -22,9 +22,17 @@ public final class HttpResponse {
         }
     }
 
-    public Status status = Status.Ok;
+    private Status status = Status.Ok;
 
-    public String content = "";
+    private long contentLength = 0;
+
+    public void setStatus(Status status) {
+        this.status = status;
+    }
+
+    public void setContentLength(long contentLength) {
+        this.contentLength = contentLength;
+    }
 
     public void writeTo(OutputStream os) throws IOException {
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(os));
@@ -33,18 +41,17 @@ public final class HttpResponse {
         bw.write(status.code);
         bw.write(" ");
         bw.write(status.message);
-        bw.write("\n");
+        bw.write("\r\n");
 
         bw.write("Content-Length: ");
-        bw.write(Integer.toString(content.length()));
-        bw.write("\n");
+        bw.write(Long.toString(contentLength));
+        bw.write("\r\n");
 
-        bw.write("Content-Type: text/plain; charset=utf-8\n");
+        bw.write("Content-Type: text/plain; charset=utf-8\r\n");
 
-        bw.write("\n");
+        bw.write("\r\n");
 
-        bw.write(content);
-
+        // write the headers, then the rest of the contents
         bw.flush();
     }
 }

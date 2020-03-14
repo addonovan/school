@@ -2,9 +2,13 @@ package com.addonovan.cse4344.proj1;
 
 import java.io.BufferedWriter;
 import java.io.IOException;
+import java.io.OutputStream;
 import java.io.OutputStreamWriter;
 import java.net.ServerSocket;
 import java.net.Socket;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -18,13 +22,25 @@ public class Server {
         socket = new ServerSocket(port);
     }
 
-    private HttpResponse handleConnection(HttpRequest request) throws IOException {
+    private void handleConnection(HttpRequest request, OutputStream os) throws IOException {
         Logger.info("%s %s", request.getMethod(), request.getPath());
 
         HttpResponse response = new HttpResponse();
-        response.content = "You requested: " + request.getPath();
 
-        return response;
+        // get the file from the local path
+        Path path = Paths.get(".", request.getPath());
+
+        if (!Files.isRegularFile(path)) {
+            response.setStatus(HttpResponse.Status.NotFound);
+            response.writeTo(os);
+            return;
+        }
+
+        response.setContentLength(Files.size(path));
+        response.writeTo(os);
+
+        // finish off the method by sending teh body of the contents
+        Files.copy(path, os);
     }
 
     public void start(int workPoolSize) {
@@ -89,8 +105,7 @@ public class Server {
                     );
 
                     HttpRequest request = HttpRequest.from(client.getInputStream());
-                    HttpResponse response = handleConnection(request);
-                    response.writeTo(client.getOutputStream());
+                    handleConnection(request, client.getOutputStream());
 
                     client.getOutputStream().flush();
                     client.close();
