@@ -18,8 +18,13 @@ public class Server {
         socket = new ServerSocket(port);
     }
 
-    private void handleConnection(HttpRequest request) throws IOException {
+    private HttpResponse handleConnection(HttpRequest request) throws IOException {
         Logger.info("%s %s", request.getMethod(), request.getPath());
+
+        HttpResponse response = new HttpResponse();
+        response.content = "You requested: " + request.getPath();
+
+        return response;
     }
 
     public void start(int workPoolSize) {
@@ -84,9 +89,11 @@ public class Server {
                     );
 
                     HttpRequest request = HttpRequest.from(client.getInputStream());
-                    handleConnection(request);
-                    client.close();
+                    HttpResponse response = handleConnection(request);
+                    response.writeTo(client.getOutputStream());
 
+                    client.getOutputStream().flush();
+                    client.close();
                 } catch (Exception e) {
                     e.printStackTrace();
                     Logger.error("Uncaught exception:\n", Util.getStackTrace(e));
