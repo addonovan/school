@@ -5,14 +5,14 @@ import java.io.IOException;
 import java.io.OutputStreamWriter;
 import java.net.ServerSocket;
 import java.net.Socket;
-import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 
 public class Server {
 
     private final ServerSocket socket;
 
-    private final ArrayList<Socket> availableClients = new ArrayList<>();
+    private final List<Socket> availableClients = new LinkedList<>();
 
     public Server(int port) throws IOException {
         socket = new ServerSocket(port);
@@ -29,13 +29,13 @@ public class Server {
         bw.flush();
     }
 
-    public void start() {
+    public void start(int workPoolSize) {
         Thread.currentThread().setName("Main");
 
         Logger.info("Accepting connections on port %d", socket.getLocalPort());
 
         // spawn the threadpool to handle connections
-        for (int i = 0; i < 4; i++) {
+        for (int i = 0; i < workPoolSize; i++) {
             Thread worker = new Thread(new ConnectionHandler(i));
             worker.start();
         }
@@ -61,7 +61,6 @@ public class Server {
         }
 
         private Socket getNextConnection() throws InterruptedException {
-            Logger.info("Waiting for connection...");
             while (true) {
                 synchronized (availableClients) {
                     if (!availableClients.isEmpty()) {
@@ -69,6 +68,9 @@ public class Server {
                     }
                 }
 
+                // cycle holding onto the lock periodically so we don't deadlock
+                // while the main thread is trying to add new clients into the
+                // queue
                 Thread.sleep(10);
             }
         }
