@@ -6,3 +6,10 @@
 *.pyc
 cse4360/**/*.bak
 cse4360/**/Makefile
+
+**/.idea
+*.iml
+*.ipr
+
+cse4344/project1/out
+
