@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <math.h>
+#include <stdlib.h>
 #include "explore.h"
 
 #define STATES  82                          /* Number of states        */
@@ -14,6 +15,8 @@ extern int state;                           /* Current state            */
 extern int old_state;                       /* Previous state           */
 
 
+double max(double a, double b);
+
 
 /* Q-learning function                                                  */
 /* Inputs: reinf   :   reinforcement received                           */
@@ -21,28 +24,29 @@ extern int old_state;                       /* Previous state           */
 /*                     0 if always the action with the highest          */
 /*                     Q value should be taken                          */
 /* Return value:  action number ( 0 or 1 )                              */
-int Q_learn(double reinf, int rand_act) {
-    // find the best action based on our current state
-    // argmax(Q_values[x][state])
-    int best_action = 0;
-    for (int i = 1; i < ACTIONS; i++) {
-        if (Q_values[i][state] > Q_values[best_action][state]) {
-            best_action = i;
-        }
-    }
+int Q_learn(double reinf,int rand_act){
 
-    // update the Q value
-    double old_q = Q_values[action][old_state];
-    double future_utility = Q_values[best_action][state];
-    double new_q = ((1 - BETA) * old_q) 
-                 + (BETA * (reinf + GAMMA * future_utility));
-    Q_values[action][old_state] = new_q;
+//QLearning algorithim
+//double currentstate = Q_values[action][state];
+double qval_old = (1-BETA) * Q_values[action][old_state];
+double value_learned = BETA * (reinf + GAMMA * max(Q_values[0][state],Q_values[1][state]));
+Q_values[action][old_state] = qval_old + value_learned;
 
-    // now, return the action we're supposed to
-    if (rand_act == 1) {
-        return bolzman_exploration(Q_values);
-    } else {
-        return best_action;
-    }
+if (rand_act == 0) {
+    //Action 0 has the higher QVal
+    if(Q_values[0][state] > Q_values[1][state]){return 0;}
+    //Action 1 has the higher QVal
+    else{return 1;}
 }
+    //Use random evaluation
+if (rand_act == 1) {
+  return bolzman_exploration(Q_values);
+  }
 
+}
+//Max value calculator
+
+double max(double a, double b){
+  if (a >b){return a; }
+  else{ return b; }
+}
