@@ -33,16 +33,17 @@ public final class ServerMain {
 
         Server server = new Server(port);
         server.start(4, request -> {
+            // log information about the request
             Logger.info("%s %s", request.getMethod(), request.getPath());
-            request.getHeaders().forEach((key, value) -> {
-                Logger.info("HEADER %s = %s", key, value);
-            });
+            request.getHeaders().forEach((key, value) -> Logger.info("HEADER %s = %s", key, value));
 
             HttpResponse response = new HttpResponse();
-
             Path path = Paths.get(".", request.getPath());
 
-            if (Files.notExists(path)) {
+            if (request.getMethod() != HttpRequest.Method.GET) {
+                response.setStatus(HttpResponse.Status.BadRequest);
+                response.setResponseSource(new StringResponseSource("Unsupported method"));
+            } else if (Files.notExists(path)) {
                 response.setStatus(HttpResponse.Status.NotFound);
                 response.setResponseSource(new StringResponseSource("Not Found"));
             } else {
