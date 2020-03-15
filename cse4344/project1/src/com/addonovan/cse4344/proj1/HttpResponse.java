@@ -23,14 +23,25 @@ public final class HttpResponse {
         }
     }
 
+    /** The status of this response */
     private Status status;
 
+    /** The source for the content of this response. */
     private ResponseSource responseSource;
 
+    /**
+     * Creates a new {@code 200 OK} response with no body.
+     */
     public HttpResponse() {
         this(Status.Ok, new StringResponseSource(""));
     }
 
+    /**
+     * @param status
+     *          {@link #status}
+     * @param source
+     *          {@link #responseSource}
+     */
     public HttpResponse(Status status, ResponseSource source) {
         this.status = status;
         this.responseSource = source;
@@ -44,6 +55,14 @@ public final class HttpResponse {
         this.responseSource = responseSource;
     }
 
+    /**
+     * Sends this response down the connection to the current client via
+     * the {@code os}. This will not close {@code os}.
+     *
+     * @param os
+     *          The connection to the client.
+     * @throws IOException If writing to {@code os} produces any problems.
+     */
     public void writeTo(OutputStream os) throws IOException {
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(os));
 

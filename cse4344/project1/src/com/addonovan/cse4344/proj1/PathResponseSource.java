@@ -8,17 +8,28 @@ import java.nio.channels.FileChannel;
 import java.nio.channels.WritableByteChannel;
 import java.nio.file.Files;
 import java.nio.file.Path;
-import java.nio.file.StandardCopyOption;
 import java.util.Optional;
 
+/**
+ * A {@link ResponseSource} indicating that the given content is a
+ * file on the disk, which should be transferred directly into the
+ * output socket, instead of first being read into memory.
+ */
 public class PathResponseSource implements ResponseSource {
 
+    /** The path to the resource */
     private final Path path;
 
+    /** The length of the content */
     private final long length;
 
+    /** The MIME-type of the file (or application/octet-stream if none). */
     private final String contentType;
 
+    /**
+     * @param path
+     *          The path to the resource which will be the body of the response.
+     */
     public PathResponseSource(Path path) {
         this.path = path;
 
