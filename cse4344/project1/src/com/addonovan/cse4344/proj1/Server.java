@@ -153,16 +153,16 @@ public class Server {
                     try {
                         request = HttpRequest.from(is);
                     } catch (Exception e) {
-                        BAD_REQUEST.writeTo(os);
                         Logger.warn("Bad request:%n%s", Util.getStackTrace(e));
+                        BAD_REQUEST.writeTo(os);
                         continue;
                     }
 
                     try {
                         applicationHandler.apply(request).writeTo(os);
                     } catch (Exception e) {
-                        INTERNAL_SERVER_ERROR.writeTo(os);
                         Logger.error("Internal server error:%n%s", Util.getStackTrace(e));
+                        INTERNAL_SERVER_ERROR.writeTo(os);
                     }
 
                 } catch (Throwable t) {

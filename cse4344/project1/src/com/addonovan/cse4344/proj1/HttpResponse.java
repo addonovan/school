@@ -1,9 +1,6 @@
 package com.addonovan.cse4344.proj1;
 
-import java.io.BufferedWriter;
-import java.io.IOException;
-import java.io.OutputStream;
-import java.io.OutputStreamWriter;
+import java.io.*;
 
 public final class HttpResponse {
 
