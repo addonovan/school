@@ -6,6 +6,7 @@ import java.net.Socket;
 import java.nio.file.Paths;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.function.Function;
 
 public class Server {
 
@@ -57,7 +58,7 @@ public class Server {
 
         // spawn the threadpool to handle connections
         for (int i = 0; i < workPoolSize; i++) {
-            Thread worker = new Thread(new ConnectionHandler(i));
+            Thread worker = new Thread(new ConnectionHandler(i, this::handleConnection));
             worker.start();
         }
 
@@ -83,12 +84,18 @@ public class Server {
         /** The internal id for this connection handler */
         private final int id;
 
+        /** The action to perform on a valid request which produces a valid response. */
+        private final Function<HttpRequest, HttpResponse> applicationHandler;
+
         /**
          * @param id
          *          {@link #id}
+         * @param applicationHandler
+         *          {@link #applicationHandler}
          */
-        public ConnectionHandler(int id) {
+        public ConnectionHandler(int id, Function<HttpRequest, HttpResponse> applicationHandler) {
             this.id = id;
+            this.applicationHandler = applicationHandler;
         }
 
         /**
@@ -135,7 +142,7 @@ public class Server {
                     );
 
                     HttpRequest request = HttpRequest.from(client.getInputStream());
-                    HttpResponse response = handleConnection(request);
+                    HttpResponse response = applicationHandler.apply(request);
 
                     response.writeTo(client.getOutputStream());
 
