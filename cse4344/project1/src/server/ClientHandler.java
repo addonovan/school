@@ -83,6 +83,7 @@ public final class ClientHandler implements Runnable {
             osw.write("Content-Length: 10\r\n");
             osw.write("\r\n");
             osw.write("Not Found\n");
+            osw.flush();
         } else {
             Logger.info("Responding with resource");
 
@@ -100,11 +101,10 @@ public final class ClientHandler implements Runnable {
             osw.write(" charset=utf-8\r\n");
 
             osw.write("\r\n");
+            osw.flush();
 
             // copy the resource straight into the body
             Files.copy(resource, output);
         }
-
-        osw.flush();
     }
 }
