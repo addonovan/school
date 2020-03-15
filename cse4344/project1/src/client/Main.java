@@ -7,6 +7,12 @@ public final class Main {
 
         try {
             Logger.info("Sending request");
+            Logger.info(
+                    "\tGET %s %s:%d",
+                    request.resource,
+                    request.serverAddress,
+                    request.port
+            );
             String body = Connection.send(request);
             Logger.info("Request complete");
 
