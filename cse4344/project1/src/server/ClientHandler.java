@@ -28,6 +28,36 @@ public final class ClientHandler implements Runnable {
         this.output = socket.getOutputStream();
     }
 
+    @Override
+    public void run() {
+        Logger.info("Worker thread started");
+        Logger.info("Handling connection from %s on port %d",
+                socket.getInetAddress(),
+                socket.getLocalPort()
+        );
+
+        try (socket) {
+            handle();
+            output.flush();
+        } catch (Exception e) {
+            Logger.error(
+                    "Encountered unhandled exception when processing request: %n%s",
+                    Util.getStackTrace(e)
+            );
+        }
+
+        Logger.info("Worker thread exiting");
+    }
+
+    private void handle() throws IOException {
+        Path resource = Paths.get(".", getRequestedFile());
+        Logger.info("Fetching %s", resource.toString());
+
+        processHeaders(key -> Logger.info("HEADER %s", key));
+
+        sendResponse(resource);
+    }
+
     private String getRequestedFile() {
         final String method = input.next(); // assume this is GET
         final String resource = input.next();
@@ -38,7 +68,7 @@ public final class ClientHandler implements Runnable {
         return resource;
     }
 
-    private void processHeaders(Consumer<String> onEachHeader) throws IOException {
+    private void processHeaders(Consumer<String> onEachHeader) {
         while (input.hasNextLine()) {
             final String line = input.nextLine();
 
@@ -81,34 +111,5 @@ public final class ClientHandler implements Runnable {
         }
 
         osw.flush();
-    }
-
-    private void handle() throws IOException {
-        Path resource = Paths.get(".", getRequestedFile());
-        Logger.info("Fetching %s", resource.toString());
-
-        processHeaders(key -> Logger.info("HEADER %s", key));
-
-        sendResponse(resource);
-    }
-
-    @Override
-    public void run() {
-        Logger.info("Worker thread started");
-        Logger.info("Handling connection from %s on port %d",
-                socket.getInetAddress(),
-                socket.getLocalPort()
-        );
-
-        try (socket) {
-            handle();
-        } catch (Exception e) {
-            Logger.error(
-                    "Encountered unhandled exception when processing request: %n%s",
-                    Util.getStackTrace(e)
-            );
-        }
-
-        Logger.info("Worker thread exiting");
     }
 }
