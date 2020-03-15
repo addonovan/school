@@ -9,12 +9,28 @@ import java.util.List;
 
 public class Server {
 
+    /** The server socket listening for incoming connections. */
     private final ServerSocket socket;
 
+    /**
+     * A list of clients available to process. Each client is handled
+     * asynchronously from the main thread, which accepts connections,
+     * by a set of background worker threads.
+     */
     private final List<Socket> availableClients = new LinkedList<>();
 
-    public Server(int port) throws IOException {
-        socket = new ServerSocket(port);
+    /**
+     * Initializes a server which will listen on the given {@code port}.
+     *
+     * @param port
+     *          The port to listen to.
+     */
+    public Server(int port) {
+        try {
+            socket = new ServerSocket(port);
+        } catch (IOException e) {
+            throw new RuntimeException("Failed to initialize server", e);
+        }
     }
 
     private HttpResponse handleConnection(HttpRequest request) {
@@ -26,6 +42,14 @@ public class Server {
         return response;
     }
 
+    /**
+     * Starts the server, which will accept all incoming connections
+     * and add them to the work pool to be processed by a background
+     * thread.
+     *
+     * @param workPoolSize
+     *          The number of worker threads to run.
+     */
     public void start(int workPoolSize) {
         Thread.currentThread().setName("Main");
 
@@ -49,15 +73,31 @@ public class Server {
         }
     }
 
+    /**
+     * A {@code ConnectionHandler} will wait for an active connection
+     * and grab it out of the list of {@link #availableClients} and
+     * then proceed to fulfill and respond to the request.
+     */
     private class ConnectionHandler implements Runnable {
 
+        /** The internal id for this connection handler */
         private final int id;
 
+        /**
+         * @param id
+         *          {@link #id}
+         */
         public ConnectionHandler(int id) {
             this.id = id;
         }
 
-        private Socket getNextConnection() throws InterruptedException {
+        /**
+         * Blocks the thread while waiting for a client to connect
+         * and be ready to serve.
+         *
+         * @return The next client that was available.
+         */
+        private Socket getNextConnection() {
             while (true) {
                 synchronized (availableClients) {
                     if (!availableClients.isEmpty()) {
@@ -68,7 +108,14 @@ public class Server {
                 // cycle holding onto the lock periodically so we don't deadlock
                 // while the main thread is trying to add new clients into the
                 // queue
-                Thread.sleep(10);
+                try {
+                    Thread.sleep(10);
+                } catch (InterruptedException e) {
+                    Logger.warn(
+                            "Failed to wait between checking for available clients%n%s",
+                            Util.getStackTrace(e)
+                    );
+                }
             }
         }
 
@@ -77,7 +124,7 @@ public class Server {
             Thread.currentThread().setName("Worker" + id);
             Logger.info("Thread started");
 
-            while (true) {
+            while (!socket.isClosed()) {
                 try {
 
                     Socket client = getNextConnection();
@@ -93,10 +140,12 @@ public class Server {
                     response.writeTo(client.getOutputStream());
 
                     client.close();
-                } catch (Exception e) {
-                    Logger.error("Uncaught exception:\n%s", Util.getStackTrace(e));
+                } catch (Throwable t) {
+                    Logger.error("Uncaught exception:\n%s", Util.getStackTrace(t));
                 }
             }
+
+            Logger.info("Thread ended");
         }
 
     }

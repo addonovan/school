@@ -2,6 +2,14 @@ package com.addonovan.cse4344.proj1;
 
 public final class Logger {
 
+    /**
+     * Logs an informational message.
+     *
+     * @param format
+     *          The output formatter.
+     * @param params
+     *          Any parameters to the string format.
+     */
     public static void info(String format, Object... params) {
         Thread thread = Thread.currentThread();
         synchronized (System.out) {
@@ -11,6 +19,14 @@ public final class Logger {
         }
     }
 
+    /**
+     * Logs an informational message.
+     *
+     * @param format
+     *          The output formatter.
+     * @param params
+     *          Any parameters to the string format.
+     */
     public static void warn(String format, Object... params) {
         Thread thread = Thread.currentThread();
         synchronized (System.out) {
@@ -20,6 +36,14 @@ public final class Logger {
         }
     }
 
+    /**
+     * Logs an informational message.
+     *
+     * @param format
+     *          The output formatter.
+     * @param params
+     *          Any parameters to the string format.
+     */
     public static void error(String format, Object... params) {
         Thread thread = Thread.currentThread();
         synchronized (System.out) {
