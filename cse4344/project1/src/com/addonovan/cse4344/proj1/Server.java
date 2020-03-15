@@ -1,14 +1,27 @@
 package com.addonovan.cse4344.proj1;
 
 import java.io.IOException;
+import java.io.InputStream;
+import java.io.OutputStream;
 import java.net.ServerSocket;
 import java.net.Socket;
-import java.nio.file.Paths;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.function.Function;
 
 public class Server {
+
+    /** The server's response when a malformed request was received. */
+    private static final HttpResponse BAD_REQUEST = new HttpResponse(
+            HttpResponse.Status.BadRequest,
+            new StringResponseSource("Bad request")
+    );
+
+    /** The server's response when it encounters any unhandled error. */
+    private static final HttpResponse INTERNAL_SERVER_ERROR = new HttpResponse(
+            HttpResponse.Status.InternalServerError,
+            new StringResponseSource("An error occurred")
+    );
 
     /** The server socket listening for incoming connections. */
     private final ServerSocket socket;
@@ -125,21 +138,33 @@ public class Server {
             Logger.info("Thread started");
 
             while (!socket.isClosed()) {
-                try {
+                try (final Socket client = getNextConnection()) {
 
-                    Socket client = getNextConnection();
                     Logger.info(
                             "Handling connection from %s:%d",
                             client.getInetAddress(),
                             client.getPort()
                     );
 
-                    HttpRequest request = HttpRequest.from(client.getInputStream());
-                    HttpResponse response = applicationHandler.apply(request);
+                    InputStream is = client.getInputStream();
+                    OutputStream os = client.getOutputStream();
 
-                    response.writeTo(client.getOutputStream());
+                    final HttpRequest request;
+                    try {
+                        request = HttpRequest.from(is);
+                    } catch (Exception e) {
+                        BAD_REQUEST.writeTo(os);
+                        Logger.warn("Bad request:%n%s", Util.getStackTrace(e));
+                        continue;
+                    }
 
-                    client.close();
+                    try {
+                        applicationHandler.apply(request).writeTo(os);
+                    } catch (Exception e) {
+                        INTERNAL_SERVER_ERROR.writeTo(os);
+                        Logger.error("Internal server error:%n%s", Util.getStackTrace(e));
+                    }
+
                 } catch (Throwable t) {
                     Logger.error("Uncaught exception:\n%s", Util.getStackTrace(t));
                 }

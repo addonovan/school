@@ -1,5 +1,7 @@
 package com.addonovan.cse4344.proj1;
 
+import java.nio.file.Files;
+import java.nio.file.Path;
 import java.nio.file.Paths;
 
 public final class ServerMain {
@@ -32,9 +34,20 @@ public final class ServerMain {
         Server server = new Server(port);
         server.start(4, request -> {
             Logger.info("%s %s", request.getMethod(), request.getPath());
+            request.getHeaders().forEach((key, value) -> {
+                Logger.info("HEADER %s = %s", key, value);
+            });
 
             HttpResponse response = new HttpResponse();
-            response.setContentPath(Paths.get(".", request.getPath()));
+
+            Path path = Paths.get(".", request.getPath());
+
+            if (Files.notExists(path)) {
+                response.setStatus(HttpResponse.Status.NotFound);
+                response.setResponseSource(new StringResponseSource("Not Found"));
+            } else {
+                response.setResponseSource(new PathResponseSource(path));
+            }
 
             return response;
         });

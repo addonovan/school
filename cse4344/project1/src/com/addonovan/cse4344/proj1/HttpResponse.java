@@ -4,14 +4,12 @@ import java.io.BufferedWriter;
 import java.io.IOException;
 import java.io.OutputStream;
 import java.io.OutputStreamWriter;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.util.Optional;
 
 public final class HttpResponse {
 
     public enum Status {
         Ok(200, "OK"),
+        BadRequest(400, "Bad Request"),
         NotFound(404, "Not Found"),
         InternalServerError(500, "Internal Server Error");
 
@@ -25,30 +23,25 @@ public final class HttpResponse {
         }
     }
 
-    private Status status = Status.Ok;
+    private Status status;
 
-    private Path contentPath = null;
+    private ResponseSource responseSource;
 
-    private long contentSize = 0;
+    public HttpResponse() {
+        this(Status.Ok, new StringResponseSource(""));
+    }
 
-    private String contentType = "text/plain";
+    public HttpResponse(Status status, ResponseSource source) {
+        this.status = status;
+        this.responseSource = source;
+    }
 
     public void setStatus(Status status) {
         this.status = status;
     }
 
-    public void setContentPath(Path contentPath) {
-        this.contentPath = contentPath;
-        try {
-            contentSize = Files.size(contentPath);
-
-            // try to detect the content type
-            contentType = Optional.ofNullable(Files.probeContentType(contentPath))
-                    .orElse(contentType);
-        } catch (Exception e) {
-            contentSize = 0;
-            this.status = Status.NotFound;
-        }
+    public void setResponseSource(ResponseSource responseSource) {
+        this.responseSource = responseSource;
     }
 
     public void writeTo(OutputStream os) throws IOException {
@@ -61,20 +54,19 @@ public final class HttpResponse {
         bw.write("\r\n");
 
         bw.write("Content-Length: ");
-        bw.write(Long.toString(contentSize));
+        bw.write(Long.toString(responseSource.getLength()));
         bw.write("\r\n");
 
         bw.write("Content-Type: ");
-        bw.write(contentType);
+        bw.write(responseSource.getContentType());
         bw.write(";  charset=utf-8\r\n");
 
         // finish the headers
         bw.write("\r\n");
         bw.flush();
 
-        if (contentSize > 0) {
-            Files.copy(contentPath, os);
-        }
+        // write the body
+        responseSource.writeTo(os);
 
         os.flush();
     }
