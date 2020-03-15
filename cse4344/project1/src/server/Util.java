@@ -1,4 +1,4 @@
-package com.addonovan.cse4344.proj1;
+package server;
 
 import java.io.PrintWriter;
 import java.io.StringWriter;
