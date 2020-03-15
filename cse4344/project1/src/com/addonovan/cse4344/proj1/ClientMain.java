@@ -9,6 +9,11 @@ import java.util.Scanner;
 
 public class ClientMain {
 
+    /**
+     * @param args
+     *          Command line arguments from {@link #main}
+     * @return Parsed command line arguments.
+     */
     private static Arguments parseArgs(String[] args) {
         Arguments parsed = new Arguments();
 
@@ -51,19 +56,43 @@ public class ClientMain {
         throw new RuntimeException("Unreachable");
     }
 
+    /**
+     * Sends an HTTP request to the server for the given file.
+     *
+     * @param os
+     *          The outbound connection to server.
+     * @param fileName
+     *          The name of the file to request.
+     * @throws IOException If there were any problems communicating with the server.
+     */
     private static void sendRequest(OutputStream os, String fileName) throws IOException {
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(os));
+        // GET /{filename} HTTP/1.1
+        // Connection: close
+        //
+
         bw.write("GET /");
         bw.write(fileName);
-        bw.write(" HTTP/1.1\r\n");
+        bw.write(" HTTP/1.0\r\n");
+        // if we're interacting with outside servers, this will make them immediately
+        // close the connection after responding to us, so that we can just read the
+        // body of the response out easily
         bw.write("Connection: close\r\n");
         bw.write("\r\n");
-        bw.flush();
+
+        bw.flush(); // flush to actually send the data to the server
     }
 
+    /**
+     * Reads the response of the body.
+     *
+     * @param is
+     *          The inbound stream of data from the server.
+     * @throws IOException If there is any problem reading data from the server.
+     */
     private static void readResponse(InputStream is) throws IOException {
         Scanner scanner = new Scanner(is);
-        scanner.next();
+        scanner.next(); // skip the protocol specification
         String statusCode = scanner.next();
         String statusText = scanner.nextLine();
 
@@ -76,12 +105,12 @@ public class ClientMain {
         // throw out all the headers
         while (!scanner.nextLine().isBlank());
 
+        // read the rest of the information as the body
         StringBuilder sb = new StringBuilder();
         while (scanner.hasNextLine()) {
             sb.append(scanner.nextLine());
             sb.append("\n");
         }
-
         Logger.info("Content:%n%s", sb);
     }
 
