@@ -2,16 +2,11 @@ package server;
 
 import java.io.*;
 import java.net.Socket;
-import java.nio.channels.Channels;
-import java.nio.channels.WritableByteChannel;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.util.HashMap;
-import java.util.Map;
 import java.util.Optional;
 import java.util.Scanner;
-import java.util.function.BiConsumer;
 import java.util.function.Consumer;
 
 public final class ClientHandler implements Runnable {
