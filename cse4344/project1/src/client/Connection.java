@@ -33,6 +33,8 @@ public final class Connection {
 
         osw.write("Connection: close\r\n"); // make extra sure other servers will close this immediately
 
+        osw.write("\r\n"); // mark the end of the headers
+
         osw.flush();
 
         return socket;
@@ -43,7 +45,7 @@ public final class Connection {
 
         Logger.info("Receiving response");
         Logger.info("\tprotocol = %s", scanner.next());
-        Logger.info("\tstatus = %d (%s)", scanner.nextInt(), scanner.nextLine());
+        Logger.info("\tstatus = %d (%s)", scanner.nextInt(), scanner.nextLine().trim());
 
         readHeaders(scanner);
         return readBody(scanner);

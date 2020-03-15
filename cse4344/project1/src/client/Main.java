@@ -10,7 +10,7 @@ public final class Main {
             String body = Connection.send(request);
             Logger.info("Request complete");
 
-            System.out.println(body);
+            Logger.info("Body:%n%s", body);
         } catch (Exception e) {
             Logger.error("Connection failed!");
             e.printStackTrace();
