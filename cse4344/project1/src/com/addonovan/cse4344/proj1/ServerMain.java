@@ -1,5 +1,7 @@
 package com.addonovan.cse4344.proj1;
 
+import java.nio.file.Paths;
+
 public final class ServerMain {
 
     /**
@@ -28,7 +30,14 @@ public final class ServerMain {
         final int port = parseArgs(args);
 
         Server server = new Server(port);
-        server.start(4);
+        server.start(4, request -> {
+            Logger.info("%s %s", request.getMethod(), request.getPath());
+
+            HttpResponse response = new HttpResponse();
+            response.setContentPath(Paths.get(".", request.getPath()));
+
+            return response;
+        });
     }
 
 }

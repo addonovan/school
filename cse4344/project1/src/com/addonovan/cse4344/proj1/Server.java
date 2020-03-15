@@ -34,15 +34,6 @@ public class Server {
         }
     }
 
-    private HttpResponse handleConnection(HttpRequest request) {
-        Logger.info("%s %s", request.getMethod(), request.getPath());
-
-        HttpResponse response = new HttpResponse();
-        response.setContentPath(Paths.get(".", request.getPath()));
-
-        return response;
-    }
-
     /**
      * Starts the server, which will accept all incoming connections
      * and add them to the work pool to be processed by a background
@@ -50,15 +41,17 @@ public class Server {
      *
      * @param workPoolSize
      *          The number of worker threads to run.
+     * @param action
+     *          The action which generates an {@link HttpResponse} to a valid {@link HttpRequest}.
      */
-    public void start(int workPoolSize) {
+    public void start(int workPoolSize, Function<HttpRequest, HttpResponse> action) {
         Thread.currentThread().setName("Main");
 
         Logger.info("Accepting connections on port %d", socket.getLocalPort());
 
         // spawn the threadpool to handle connections
         for (int i = 0; i < workPoolSize; i++) {
-            Thread worker = new Thread(new ConnectionHandler(i, this::handleConnection));
+            Thread worker = new Thread(new ConnectionHandler(i, action));
             worker.start();
         }
 
