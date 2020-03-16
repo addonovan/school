@@ -9,6 +9,9 @@ import java.util.Optional;
 import java.util.Scanner;
 import java.util.function.Consumer;
 
+/**
+ * @author Austin Donovan - UTA 1001311620
+ */
 public final class ClientHandler implements Runnable {
 
     private final Socket socket;

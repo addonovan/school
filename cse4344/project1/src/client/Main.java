@@ -1,5 +1,8 @@
 package client;
 
+/**
+ * @author Austin Donovan - UTA 1001311620
+ */
 public final class Main {
 
     public static void main(String[] args) {

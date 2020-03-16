@@ -1,5 +1,8 @@
 package client;
 
+/**
+ * @author Austin Donovan - UTA 1001311620
+ */
 public final class Request {
 
     private static final int DEFAULT_PORT = 8080;

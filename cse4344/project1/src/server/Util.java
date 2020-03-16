@@ -3,6 +3,9 @@ package server;
 import java.io.PrintWriter;
 import java.io.StringWriter;
 
+/**
+ * @author Austin Donovan - UTA 1001311620
+ */
 public final class Util {
 
     private Util() {}

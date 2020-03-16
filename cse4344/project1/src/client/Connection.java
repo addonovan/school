@@ -5,6 +5,9 @@ import java.io.OutputStreamWriter;
 import java.net.Socket;
 import java.util.Scanner;
 
+/**
+ * @author Austin Donovan - UTA 1001311620
+ */
 public final class Connection {
 
     public static String send(Request request) {

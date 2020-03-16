@@ -1,5 +1,8 @@
 package server;
 
+/**
+ * @author Austin Donovan - UTA 1001311620
+ */
 public final class Logger {
 
     public static void info(String format, Object... params) {

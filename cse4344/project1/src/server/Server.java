@@ -4,6 +4,9 @@ import java.io.IOException;
 import java.net.ServerSocket;
 import java.net.Socket;
 
+/**
+ * @author Austin Donovan - UTA 1001311620
+ */
 public final class Server {
 
     private final int port;
